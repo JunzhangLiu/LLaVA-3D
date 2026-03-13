@@ -1,0 +1,3 @@
+# Ignore demo data and large annotation JSON
+demo/
+playground/data/annotations/embodiedscan_infos_full.json

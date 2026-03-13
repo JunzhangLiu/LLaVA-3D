@@ -1,14 +1,11 @@
----
-
-This fork is used for our project on COMP5422 Deep 2D & 3D Visual Scene Understanding (HKUST, Prof. Dan Xu).
-
-Team members:
-- WU, Yuyao
-- CHAN, Nga Teng
-- LIU, Junzhang
-- Wong Wei Ming
-
----
+Metadata-Version: 2.4
+Name: llava-3d
+Version: 1.0.0
+Summary: A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
 
 <br>
 <p align="center">
@@ -92,60 +89,30 @@ git clone https://github.com/ZCMax/LLaVA-3D.git
 cd LLaVA-3D
 ```
 
+2. Install Packages
 
-
-2. Install Pixi (if not already installed):
-
-```sh
-curl -fsSL https://pixi.sh/install.sh | sh
-```
-
-
-3. Install all dependencies using Pixi:
-
-```sh
-pixi install
-```
-
-After installation, you can:
-- Run commands directly with `pixi run <task>` (no need to activate the environment first)
-- Or enter the Pixi environment shell (like `venv`/`conda`):
-
-```sh
-pixi shell
-```
-This gives you an interactive shell with all dependencies available.
-
-**Training dependencies:**
-To install and use extra packages for training (e.g., deepspeed, wandb, flash-attn), activate the training environment:
-
-```sh
-pixi install -e train
-pixi shell -e train
-```
-or run a command with training dependencies:
-```sh
-pixi run -e train <task>
+```Shell
+conda create -n llava-3d python=3.10 -y
+conda activate llava-3d
+pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
+pip install torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+pip install -e .
 ```
 
 3. Download the [Camera Parameters File](https://drive.google.com/file/d/1a-1MCFLkfoXNgn9XdlmS9Gnzplrzw7vf/view?usp=drive_link) and put the json file under the `./playground/data/annotations`.
 
-**Important:** You must also download or generate `embodiedscan_infos_full.json` and place it in `./playground/data/annotations/`. See `docs/fintune_custom_data.md` for the required format if you want to generate your own.
+4. Install additional packages for training cases
+
+```Shell
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
 
 
 ## 📦 Model Zoo
 
 The trained model checkpoints are available [here](https://huggingface.co/ChaimZhu/LLaVA-3D-7B). Currently we only provide the 7B model, and we will continue to update the model zoo.
 
-## ⚡ Pixi Environment Manager
-
-This project uses [Pixi](https://pixi.sh/) for environment and task management. If you don't have Pixi installed, run:
-
-```sh
-curl -fsSL https://pixi.sh/install.sh | sh
-```
-
-See the [Pixi documentation](https://pixi.sh/docs/) for more details.
 ## 🤖 Demo
 
 We currently support single image as inputs for 2D tasks and posed RGB-D images as inputs for 3D tasks. You can run the demo by using the script `llava/eval/run_llava_3d.py`. For 2D tasks, use the `image-file` parameter, and for 3D tasks, use the `video-path` parameter to provide the corresponding data. Here, we provide some demos as examples:
@@ -153,37 +120,41 @@ We currently support single image as inputs for 2D tasks and posed RGB-D images 
 ### 2D Tasks
 
 ```Shell
-pixi run demo-2d
+python llava/eval/run_llava_3d.py \
+    --model-path ChaimZhu/LLaVA-3D-7B \
+    --image-file https://llava-vl.github.io/static/images/view.jpg \
+    --query "What are the things I should be cautious about when I visit here?"
 ```
 
 ### 3D Tasks
 
-We provide the demo scene [here](https://huggingface.co/datasets/ChaimZhu/LLaVA-3D-Demo-Data). **To use the demo, you must clone the dataset using git-lfs:**
-
-```sh
-sudo apt-get install git-lfs  # or see https://git-lfs.com for your OS
-git lfs install
-git clone https://huggingface.co/datasets/ChaimZhu/LLaVA-3D-Demo-Data
-mv LLaVA-3D-Demo-Data/* ./demo/
-```
-This ensures all large files are downloaded correctly. If you skip git-lfs, you may get only pointers, not the actual data.
+We provide the demo scene [here](https://huggingface.co/datasets/ChaimZhu/LLaVA-3D-Demo-Data). Download the demo data and put it under the `./demo`.
 
 1. 3D Question Answering
 
 ```Shell
-pixi run demo-3d-qa
+python llava/eval/run_llava_3d.py \
+    --model-path ChaimZhu/LLaVA-3D-7B \
+    --video-path ./demo/scannet/scene0356_00 \
+    --query "Tell me the only object that I could see from the other room and describe the object."
 ```
 
 2. 3D Dense Captioning
 
 ```Shell
-pixi run demo-3d-caption
+python llava/eval/run_llava_3d.py \
+    --model-path ChaimZhu/LLaVA-3D-7B \
+    --video-path ./demo/scannet/scene0566_00 \
+    --query "The related object is located at [0.981, 1.606, 0.430]. Describe the object in detail."
 ```
 
 3. 3D Localization
 
 ```Shell
-pixi run demo-3d-loc
+python llava/eval/run_llava_3d.py \
+    --model-path ChaimZhu/LLaVA-3D-7B \
+    --video-path ./demo/scannet/scene0382_01 \
+    --query "The related object is located at [-0.085,1.598,1.310]. Please output the 3D bounding box of the object and then describe the object."
 ```
 
 
@@ -215,4 +186,4 @@ This work is under the <a rel="license" href="http://creativecommons.org/license
 
 ## 👏 Acknowledgements
 
-This repo benefits from [3D-LLM](https://github.com/UMass-Foundation-Model/3D-LLM), [LLaVA](https://github.com/haotian-liu/LLaVA), and [ODIN](https://github.com/ayushjain1144/odin).
+This repo benefits from [3D-LLM](https://github.com/UMass-Foundation-Model/3D-LLM), [LLaVA](https://github.com/haotian-liu/LLaVA), and [ODIN](https://github.com/ayushjain1144/odin). 

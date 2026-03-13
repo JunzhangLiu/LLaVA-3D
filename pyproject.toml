@@ -1,3 +1,20 @@
+# ==========================================
+# PIXI USAGE NOTES
+# ==========================================
+#
+# This project uses Pixi (https://pixi.sh/) for environment and task management.
+#
+# - To install all dependencies: pixi install
+# - To enter the environment shell: pixi shell
+# - To run a task: pixi run <task>
+# - To install training dependencies: pixi install -e train
+# - To enter training shell: pixi shell -e train
+# - To run a task with training deps: pixi run -e train <task>
+#
+# You do NOT need to use pip or conda directly. Pixi handles all dependencies and environments.
+#
+# See README.md and https://pixi.sh/docs/ for more info.
+
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
@@ -7,27 +24,73 @@ name = "llava-3d"
 version = "1.0.0"
 description = "A Simple yet Effective Pathway to Empowering LMMs with 3D-awareness."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: Apache Software License",
 ]
-dependencies = [
-    "transformers==4.37.2", "tokenizers==0.15.1", "sentencepiece==0.1.99", "shortuuid",
-    "accelerate==0.21.0", "peft", "bitsandbytes",
-    "pydantic", "markdown2[all]", "numpy", "scikit-learn==1.2.2",
-    "gradio==4.29.0", "gradio_client==0.16.1",
-    "requests", "httpx==0.27.0", "uvicorn", "fastapi",
-    "einops==0.6.1", "einops-exts==0.0.4", "timm==0.6.13", "opencv-python", "protobuf"
-]
-
-[project.optional-dependencies]
-train = ["deepspeed==0.12.6", "ninja", "wandb"]
-build = ["build", "twine"]
-
 
 [tool.setuptools.packages.find]
 exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
 
-[tool.wheel]
-exclude = ["assets*", "benchmark*", "docs", "dist*", "playground*", "scripts*", "tests*"]
+
+# ==========================================
+# PIXI CONFIGURATION
+# ==========================================
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tool.pixi.system-requirements]
+cuda = "12.8"
+
+[tool.pixi.dependencies]
+python = "3.10.*"
+pytorch-gpu = "*"
+torchvision = "*"
+torchaudio = "*"
+pytorch_scatter = "*"
+libstdcxx-ng = ">=14"
+
+[tool.pixi.pypi-dependencies]
+llava-3d = { path = ".", editable = true }
+transformers = "==4.37.2"
+tokenizers = "==0.15.1"
+sentencepiece = "==0.1.99"
+shortuuid = "*"
+accelerate = "==0.21.0"
+peft = "*"
+bitsandbytes = "*"
+pydantic = "*"
+markdown2 = {version = "*", extras = ["all"]}
+numpy = "*"
+scikit-learn = "==1.2.2"
+gradio = "*"
+gradio-client = "*"
+requests = "*"
+httpx = "==0.27.0"
+uvicorn = "*"
+fastapi = "*"
+einops = "==0.6.1"
+einops-exts = "==0.0.4"
+timm = "==0.6.13"
+opencv-python = "*"
+protobuf = "*"
+
+[tool.pixi.tasks]
+demo-2d = { cmd = "python llava/eval/run_llava_3d.py --model-path ChaimZhu/LLaVA-3D-7B --image-file https://llava-vl.github.io/static/images/view.jpg --query 'What are the things I should be cautious about when I visit here?'", env = { PYTHONNOUSERSITE = "1" } }
+demo-3d-qa = { cmd = "python llava/eval/run_llava_3d.py --model-path ChaimZhu/LLaVA-3D-7B --video-path ./demo/scannet/scene0356_00 --query 'Tell me the only object that I could see from the other room and describe the object.'", env = { PYTHONNOUSERSITE = "1" } }
+demo-3d-caption = { cmd = "python llava/eval/run_llava_3d.py --model-path ChaimZhu/LLaVA-3D-7B --video-path ./demo/scannet/scene0566_00 --query 'The related object is located at [0.981, 1.606, 0.430]. Describe the object in detail.'", env = { PYTHONNOUSERSITE = "1" } }
+demo-3d-loc = { cmd = "python llava/eval/run_llava_3d.py --model-path ChaimZhu/LLaVA-3D-7B --video-path ./demo/scannet/scene0382_01 --query 'The related object is located at [-0.085,1.598,1.310]. Please output the 3D bounding box of the object and then describe the object.'", env = { PYTHONNOUSERSITE = "1" } }
+
+[tool.pixi.environments]
+train = { features = ["train"] }
+
+[tool.pixi.feature.train.pypi-dependencies]
+deepspeed = "==0.12.6"
+ninja = "*"
+wandb = "*"
+flash-attn = "*"
+
+[tool.pixi.pypi-options]
+no-build-isolation = ["flash-attn"]
