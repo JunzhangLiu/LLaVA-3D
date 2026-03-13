@@ -1,5 +1,3 @@
----
-
 This fork is used for our project on COMP5422 Deep 2D & 3D Visual Scene Understanding (HKUST, Prof. Dan Xu).
 
 Team members:
@@ -8,7 +6,6 @@ Team members:
 - LIU, Junzhang
 - Wong Wei Ming
 
----
 
 <br>
 <p align="center">
