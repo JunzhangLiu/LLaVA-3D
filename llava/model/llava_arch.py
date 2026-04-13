@@ -201,7 +201,7 @@ class LlavaMetaForCausalLM(ABC):
     ):
         vision_tower = self.get_vision_tower()
         if vision_tower is None or images is None or input_ids.shape[1] == 1:
-            return input_ids, position_ids, attention_mask, past_key_values, None, labels
+            return input_ids, position_ids, attention_mask, past_key_values, None, labels,None
 
         image_idx = [idx for idx, img in enumerate(images) if img.ndim == 3]
         video_idx = [idx for idx, vid in enumerate(images) if vid.ndim == 4]
@@ -269,7 +269,7 @@ class LlavaMetaForCausalLM(ABC):
         new_labels = []
         cur_image_idx = 0
         cur_prompt_idx = 0
-        
+        img_start,img_end = [],[]
         for batch_idx, cur_input_ids in enumerate(input_ids):
             num_images = (cur_input_ids == IMAGE_TOKEN_INDEX).sum()
             # ------------------------------------------------------
@@ -327,6 +327,8 @@ class LlavaMetaForCausalLM(ABC):
 
 
             cur_new_input_embeds = [x.to(self.device) for x in cur_new_input_embeds]
+            img_start.append(cur_new_input_embeds[0].shape[0])
+            img_end.append(cur_new_input_embeds[0].shape[0]+cur_new_input_embeds[1].shape[0])
 
             cur_new_input_embeds = torch.cat(cur_new_input_embeds)
             if num_prompts == 0:
@@ -388,7 +390,7 @@ class LlavaMetaForCausalLM(ABC):
         if _position_ids is None:
             position_ids = None
 
-        return None, position_ids, attention_mask, past_key_values, new_input_embeds, new_labels
+        return None, position_ids, attention_mask, past_key_values, new_input_embeds, new_labels,(img_start,img_end)
 
     def initialize_vision_tokenizer(self, model_args, tokenizer):
         if model_args.mm_use_im_patch_token:
