@@ -41,8 +41,11 @@ class LlavaConfig(LlamaConfig):
 class LlavaLlamaModel(LlavaMetaModel, LlamaModel):
     config_class = LlavaConfig
 
-    def __init__(self, config: LlamaConfig):
+    def __init__(self, config: LlamaConfig,prune_ratio=None):
         super(LlavaLlamaModel, self).__init__(config)
+        self.prune_ratio=prune_ratio
+        if self.prune_ratio is None:
+            self.prune_ratio = {}
     # def forward(self,*args,**kwargs):
         # return super(LlavaLlamaModel, self).forward(*args,**kwargs)
     def forward(
@@ -125,12 +128,12 @@ class LlavaLlamaModel(LlavaMetaModel, LlamaModel):
         all_hidden_states = () if output_hidden_states else None
         all_self_attns = ()
         next_decoder_cache = None
-        prune_layer = {5:0.05,8:0.1,14:0.2}
+        # self.prune_ratio
         # prune_layer = {}
         for layer_idx, decoder_layer in enumerate(self.layers):
             if output_hidden_states:
                 all_hidden_states += (hidden_states,)
-            if layer_idx in prune_layer:
+            if layer_idx in self.prune_ratio:
                 output_attentions = True
             else:
                 output_attentions = False
@@ -182,7 +185,7 @@ class LlavaLlamaModel(LlavaMetaModel, LlamaModel):
                 attn_weight = attn_weight.mean(0)
                 attn_importance = attn_weight.sum(0)/(attn_mask[0]==0).sum(0)
                 img_attn_importance=attn_importance[img_start:img_end]
-                quantile_attn = torch.quantile(img_attn_importance.float(),prune_layer[layer_idx]).to(dtype=img_attn_importance.dtype)
+                quantile_attn = torch.quantile(img_attn_importance.float(),self.prune_ratio[layer_idx]).to(dtype=img_attn_importance.dtype)
                 img_attn_prune_mask = quantile_attn<img_attn_importance
                 pruned_hidden_state = torch.cat([hidden_states[i,:img_start],hidden_states[i,img_start:img_end][img_attn_prune_mask],hidden_states[i,img_end:]],dim=0)
                 pruned_position_id = torch.arange(0,pruned_hidden_state.shape[0],1,dtype=int,device=pruned_hidden_state.device)
@@ -230,13 +233,12 @@ class LlavaLlamaModel(LlavaMetaModel, LlamaModel):
 class LlavaLlamaForCausalLM(LlamaForCausalLM, LlavaMetaForCausalLM):
     config_class = LlavaConfig
 
-    def __init__(self, config):
+    def __init__(self, config,prune_ratio=None):
         super(LlamaForCausalLM, self).__init__(config)
-        self.model = LlavaLlamaModel(config)
+        self.model = LlavaLlamaModel(config,prune_ratio=prune_ratio)
         self.pretraining_tp = config.pretraining_tp
         self.vocab_size = config.vocab_size
         self.lm_head = nn.Linear(config.hidden_size, config.vocab_size, bias=False)
-
         # Initialize weights and apply final processing
         self.post_init()
 

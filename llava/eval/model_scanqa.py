@@ -10,7 +10,7 @@ from llava.conversation import conv_templates, SeparatorStyle
 from llava.model.builder import load_pretrained_model
 from llava.utils import disable_torch_init
 from llava.mm_utils import tokenizer_image_token, process_videos, get_model_name_from_path
-
+from llava.eval.scanqa_evaluator import clean_answer,answer_match
 from PIL import Image
 import math
 
@@ -31,7 +31,7 @@ def eval_model(args):
     disable_torch_init()
     model_path = os.path.expanduser(args.model_path)
     model_name = get_model_name_from_path(model_path)
-    tokenizer, model, processor, context_len = load_pretrained_model(model_path, args.model_base, model_name)
+    tokenizer, model, processor, context_len = load_pretrained_model(model_path, args.model_base, model_name,prune_ratio=args.prune_layer_ratio)
 
     # questions = [json.loads(q) for q in open(os.path.expanduser(args.question_file), "r")]
     with open(args.question_file, 'r') as file:
@@ -40,11 +40,13 @@ def eval_model(args):
     answers_file = os.path.expanduser(args.answers_file)
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
     ans_file = open(answers_file, "w")
-    for line in tqdm(questions):
+    acc =refined_acc =current=0
+    pbar = tqdm(questions)
+    for line in pbar:
         idx = line["question_id"]
-        video_file = line["video"]
+        video_file = 'scannet/'+line["scene_id"]
         video_path = os.path.join(args.video_folder, video_file)
-        qs = line["text"]
+        qs = line["question"]
         cur_prompt = qs
         if model.config.mm_use_im_start_end:
             qs = DEFAULT_IM_START_TOKEN + DEFAULT_IMAGE_TOKEN + DEFAULT_IM_END_TOKEN + '\n' + qs
@@ -88,6 +90,13 @@ def eval_model(args):
             )
 
         outputs = tokenizer.batch_decode(output_ids, skip_special_tokens=True)[0].strip()
+        pred_answer = clean_answer(outputs)
+        ref_captions = [clean_answer(gt_answer) for gt_answer in line['answers']]
+        tmp_acc, tmp_refined_acc = answer_match(pred_answer, ref_captions)
+        current+=1
+        acc += tmp_acc
+        refined_acc += tmp_refined_acc
+
 
         ans_id = shortuuid.uuid()
         ans_file.write(json.dumps({"question_id": idx,
@@ -97,6 +106,7 @@ def eval_model(args):
                                    "model_id": model_name,
                                    "metadata": {}}) + "\n")
         ans_file.flush()
+        pbar.set_description(f"acc {acc*100/current:.2f} refined {refined_acc*100/current:.2f}")
     ans_file.close()
 
 if __name__ == "__main__":
@@ -112,6 +122,12 @@ if __name__ == "__main__":
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=None)
     parser.add_argument("--num_beams", type=int, default=1)
+    parser.add_argument("--prune_layer_ratio", nargs="+", default=[])
     args = parser.parse_args()
 
+    result = {}
+    for pair in args.prune_layer_ratio:
+        k, v = pair.split(":")
+        result[int(k)] = float(v)
+    args.prune_layer_ratio = result
     eval_model(args)
