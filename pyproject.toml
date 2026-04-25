@@ -76,6 +76,7 @@ einops-exts = "==0.0.4"
 timm = "==0.6.13"
 opencv-python = "*"
 protobuf = "*"
+mmengine = "*"
 
 [tool.pixi.tasks]
 demo-2d = { cmd = "python llava/eval/run_llava_3d.py --model-path ChaimZhu/LLaVA-3D-7B --image-file https://llava-vl.github.io/static/images/view.jpg --query 'What are the things I should be cautious about when I visit here?'", env = { PYTHONNOUSERSITE = "1" } }

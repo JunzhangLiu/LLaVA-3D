@@ -1,3 +1,9 @@
 # Ignore demo data and large annotation JSON
 demo/
 playground/data/annotations/embodiedscan_infos_full.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/

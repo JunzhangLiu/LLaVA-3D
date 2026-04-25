@@ -1,0 +1,9 @@
+[submodule "LLaVA-3D-7B"]
+	path = LLaVA-3D-7B
+	url = https://huggingface.co/ChaimZhu/LLaVA-3D-7B
+[submodule "LLaVA-3D-Data"]
+	path = LLaVA-3D-Data
+	url = https://huggingface.co/datasets/ChaimZhu/LLaVA-3D-Data
+[submodule "SQA3D"]
+	path = SQA3D
+	url = https://github.com/SilongYong/SQA3D.git
