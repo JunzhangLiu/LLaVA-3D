@@ -128,34 +128,37 @@ def eval_model(args):
         image_files = image_parser(args)
         images = load_images(image_files)
         image_sizes = [x.size for x in images]
+        # Use vision tower device so tensors match when device_map="auto" splits model across GPUs
+        vision_device = next(model.get_model().get_vision_tower().parameters()).device
         images_tensor = process_images(
             images,
             processor['image'],
             model.config
-        ).to(model.device, dtype=torch_dtype)
+        ).to(vision_device, dtype=torch_dtype)
         depths_tensor = None
         poses_tensor = None
         intrinsics_tensor = None
         clicks_tensor = None
 
     if mode == 'video':
+        vision_device = next(model.get_model().get_vision_tower().parameters()).device
         videos_dict = process_videos(
             args.video_path,
             processor['video'],
             mode='random',
-            device=model.device,
+            device=vision_device,
             text=args.query
         )
-        images_tensor = videos_dict['images'].to(model.device, dtype=torch_dtype)
-        depths_tensor = videos_dict['depths'].to(model.device, dtype=torch_dtype)
-        poses_tensor = videos_dict['poses'].to(model.device, dtype=torch_dtype)
-        intrinsics_tensor = videos_dict['intrinsics'].to(model.device, dtype=torch_dtype)
-        clicks_tensor = clicks.to(model.device, dtype=torch.bfloat16)
+        images_tensor = videos_dict['images'].to(vision_device, dtype=torch_dtype)
+        depths_tensor = videos_dict['depths'].to(vision_device, dtype=torch_dtype)
+        poses_tensor = videos_dict['poses'].to(vision_device, dtype=torch_dtype)
+        intrinsics_tensor = videos_dict['intrinsics'].to(vision_device, dtype=torch_dtype)
+        clicks_tensor = clicks.to(vision_device, dtype=torch.bfloat16)
 
     input_ids = (
         tokenizer_special_token(prompt, tokenizer, return_tensors="pt")
         .unsqueeze(0)
-        .cuda()
+        .to(next(model.parameters()).device)
     )
 
     with torch.inference_mode():

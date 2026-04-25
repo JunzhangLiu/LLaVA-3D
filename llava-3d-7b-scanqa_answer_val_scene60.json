@@ -1,0 +1,678 @@
+{"question_id": "val-scene0011-0", "prompt": "What color is the chair in the kitchen?", "text": "Brown.", "answer_id": "62qtugB68ikPRzDaDCzmPu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-1", "prompt": "What color is the wooden chair in the kitchen?", "text": "Brown.", "answer_id": "F9eDQp83T7ucS5kaPaLwm7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-2", "prompt": "Where is the brown wooden chair placed?", "text": "At a table.", "answer_id": "YLC5dDdjbx9tGTpUkwgjaP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-3", "prompt": "What color is the armchair?", "text": "Brown.", "answer_id": "jiLKw8ecMWSQouy7m93a9h", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-4", "prompt": "What color are the lower kitchen cabinets?", "text": "Brown.", "answer_id": "YYVLkz4VYiMnAvdBWcUfyp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-5", "prompt": "What is under the sink?", "text": "Kitchen cabinets.", "answer_id": "ELSF78q63XzxL4hiNPtSki", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-6", "prompt": "What is on the wall of the kitchen?", "text": "Window.", "answer_id": "6w6Y3rWTPMgTH3tmSKQjAt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-7", "prompt": "On what part of the kitchen is the black square tv located?", "text": "On the wall.", "answer_id": "B8dMXBjLYcQGMDhkju37bU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-8", "prompt": "What is on the wall?", "text": "Cabinet.", "answer_id": "NERWQX2e7iTgJDjazQx6tz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-9", "prompt": "What is the top of the table?", "text": "Marble.", "answer_id": "LuCeEN85fN49JcymBQXBEh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-10", "prompt": "Where is the tv on the wall?", "text": "Above the kitchen counter.", "answer_id": "DwoD5vfP5WHaSbXSGrqTmX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-11", "prompt": "What color is the tv above a thin table?", "text": "Black.", "answer_id": "KiPUMkBwKn2isBnojJPF39", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-12", "prompt": "What is below the big black tv?", "text": "Kitchen counter.", "answer_id": "9twpCXVJYNZcLD9uvnCFGc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-13", "prompt": "What is under the long kitchen counter?", "text": "Kitchen cabinets.", "answer_id": "jkLaFiaCf3Fd4N6oLuyP7f", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-14", "prompt": "What is at the end of the table close to the tv?", "text": "Chair.", "answer_id": "5GSqoJDWY4pa66N8NKWPcU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-15", "prompt": "What color is the chair by tv?", "text": "Brown.", "answer_id": "kBN5QsWvp8xdKbUzvHm3Xu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-16", "prompt": "What type of counter is below two windows?", "text": "Kitchen counter.", "answer_id": "3Bhgo24uUTxhHv83Nncf2M", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-17", "prompt": "What color is the trash can?", "text": "Gray.", "answer_id": "8xEquwzNeGxgxvTp9XLrAg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-18", "prompt": "Where does the trash can sit in the kitchen?", "text": "Under the counter.", "answer_id": "g6qYdFBJ6BhRMayaqNFQqV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-19", "prompt": "What material is the refrigerator made of?", "text": "Stainless steel.", "answer_id": "hghKDRNnbqL9jkLVaTHtE5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-20", "prompt": "Where does the trash can sit?", "text": "Under the counter.", "answer_id": "ktUmSRcs52mUppSoDx3s3i", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-21", "prompt": "How many chairs face the table?", "text": "4.", "answer_id": "Kg4x7TSmaTfuJGPJfYbfNy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-22", "prompt": "Which chair is closest to the tv?", "text": "Chair.", "answer_id": "j4WkhPQ35LRoSQevKhojwE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-23", "prompt": "Which chairs are on the same side of the room as the trash can?", "text": "Chairs.", "answer_id": "bwRoy4UdedjEH7nApjALQa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-24", "prompt": "How many chairs are at the end of the table?", "text": "4.", "answer_id": "Q22SAALYJhn2oSmmsBLgVv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-25", "prompt": "What color is the refrigerator?", "text": "Silver.", "answer_id": "fdMhV4tujVUGy5dHHHuvtg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-26", "prompt": "What type of kitchen cabinets are in the room?", "text": "Wooden.", "answer_id": "PBWidBUsrimsdhGSnSJPjH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-27", "prompt": "What appliance is built into the top of the lower kitchen cabinets?", "text": "Dishwasher.", "answer_id": "hJe3SjyFQtRwzsmEhRRocz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-28", "prompt": "Where is the tall chair on the right of the table?", "text": "In front of the window.", "answer_id": "ZFLDs8wzb5TFXyrQpZoeqq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-29", "prompt": "Where are the two chairs in front of one another?", "text": "Table.", "answer_id": "HMHUnMF43vm5SRhtPe7qjZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-30", "prompt": "What is in the middle of the kitchen cabinets?", "text": "Sink.", "answer_id": "VAVPm8Pgpam8ma38CxZCXT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-31", "prompt": "What is in the corner of the room?", "text": "Chair.", "answer_id": "9QgXD9RptMWdSxnmF7rcGz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-32", "prompt": "What color table is to the left of a trash can?", "text": "Dark brown.", "answer_id": "WBHe54QSdmZdSAseJCaGbr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-33", "prompt": "What type of table does the tv sit above?", "text": "Dining table.", "answer_id": "mR8jt6X6cXTmpnqykxVPBq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-34", "prompt": "Where does the console table sit in the kitchen?", "text": "In front of the kitchen counter.", "answer_id": "KLvjSnks8rVFEAgYDUF2m7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-35", "prompt": "Where does the console table sit?", "text": "In front of the sofa.", "answer_id": "WZ4zyfKzrBLShB8XZLjai4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-36", "prompt": "What color is the counter?", "text": "Black.", "answer_id": "JS8rxboCezfGTyWsDcPSYW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-37", "prompt": "What is on the same side of the kitchen as the counter?", "text": "Chair.", "answer_id": "RqicwSao7Qkmife4RuJyeC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-38", "prompt": "What type of freezer does the refrigerator have?", "text": "Double-door.", "answer_id": "Y46ov8ApHdvCFBQB5YFvDy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-39", "prompt": "What shape is the refrigerator on the left of a kitchen counter?", "text": "Rectangular.", "answer_id": "nPmLkg2SG7zs3gSKbknTiQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-40", "prompt": "Where is one of the refrigerators located?", "text": "Left of the kitchen counter.", "answer_id": "XmPhY6Cuo9tSh8uA7DwgP8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-41", "prompt": "What is above the brown cabinet?", "text": "Microwave.", "answer_id": "XTS3vjikSQ8RymNYck6T3V", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-42", "prompt": "What type of refrigerator is on the right of a kitchen counter?", "text": "Double-door.", "answer_id": "NMrmDgrPYurnWe73fskofe", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-43", "prompt": "To what side of a kitchen counter is the refrigerator located?", "text": "Right.", "answer_id": "UpmtHMAfZANEySXJuBM84C", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-44", "prompt": "What color does the refridgerator appear to be?", "text": "Silver.", "answer_id": "2K27FoTpkMoKpuz29YrumN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-45", "prompt": "The refridgerator sits next to a pair of what?", "text": "Next to a pair of brown kitchen cabinets.", "answer_id": "ncPQdHPgtHwrXiYWW7JTYB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-46", "prompt": "Where is a tall trash can?", "text": "On floor.", "answer_id": "NvFvvwQtzm6KcZ3H3MwKQh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-47", "prompt": "What is below the windows nearest the refrigerator?", "text": "Chair.", "answer_id": "gxwXMqqRFyQFMBahaydeTQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-48", "prompt": "What is at the end of the room?", "text": "Table.", "answer_id": "KacnGi8EfsVqRANXkxtx2Z", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-49", "prompt": "Where is the chair closest to the front?", "text": "The chair is closest to the front of the table.", "answer_id": "Ds4sYxrCbUb3oiYjbvk3U5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-50", "prompt": "Where is the chair located on the side of the table?", "text": "The chair is located on the left side of the table.", "answer_id": "5bp6u5yuU9dUox9UkCrYWY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-51", "prompt": "The chair on the side of the table near the ovens will be what?", "text": "Facing the table.", "answer_id": "cYcfBQiVMW2wodTDFYo2VH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-52", "prompt": "Where is the chair at the head of the table located?", "text": "In front of the window.", "answer_id": "jEoWfFuFc4nBiWfpa8PvRv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-53", "prompt": "What is behind the brown chair at the head of the table?", "text": "Window.", "answer_id": "bjrqK3mJvxD73grkQ7jtzN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-54", "prompt": "What shape is the tv above a small thin table?", "text": "Rectangular.", "answer_id": "jRPSHP9LrMQw4uShom3oZU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-55", "prompt": "What is the tv above?", "text": "Above the counter.", "answer_id": "Mmk7NCy3D6b8RcMgJ2Fgsc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-56", "prompt": "How many brown chairs are behind the long table?", "text": "4.", "answer_id": "4iQTLs5zL7ZRHRtDjH4Aez", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-57", "prompt": "What type of refrigerator is it?", "text": "Double-door.", "answer_id": "JHYc4dxNrnag5xJGK2Uhpr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-58", "prompt": "What is the black kitchen counter on top of?", "text": "Kitchen cabinet.", "answer_id": "goRoJMiskqDNBk2nGCfeAa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-59", "prompt": "Where is the brown cabinet located?", "text": "Above the stove.", "answer_id": "KQc8giiT3JuBWd4chpEGx6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-60", "prompt": "What is the long table surrounded by?", "text": "Chairs.", "answer_id": "jpLyDor5tSK3uwgTTNcMbo", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-61", "prompt": "Where is the brown chair?", "text": "At table.", "answer_id": "HLcqL7wkBABmPAx8wzpMCH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-62", "prompt": "What color is the chair that is placed next to a table?", "text": "Brown.", "answer_id": "CypKjwr8WK4QDFsGWugShW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-63", "prompt": "What is beneath the tv?", "text": "Cabinet.", "answer_id": "Dfq3Tv5TetN7VsRmehEroV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-64", "prompt": "What is next to the table beneath the tv?", "text": "Chair.", "answer_id": "S2macNju65cJeVubhjLQpU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-65", "prompt": "What color are the kitchen cabinets?", "text": "Brown.", "answer_id": "YQ2vETYrHAsoZEZo7ApCtm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-66", "prompt": "Where is the chair with no arms ?", "text": "In front of the counter.", "answer_id": "P9bPz9TjYantEeBqLn55xH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-67", "prompt": "What is above the small table?", "text": "Tv.", "answer_id": "jEEpAtZFLswYcf4pMLrVC3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-68", "prompt": "What is in the room that has ten chairs pulled up to it?", "text": "Table.", "answer_id": "4X4KLDzsNHtFVTBX5JUTT7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-69", "prompt": "How many chairs does the large table in the room have?", "text": "8.", "answer_id": "8B4u4e3dkQDQStrXaXvv4i", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-70", "prompt": "How many brown chairs are on the left of the brown table?", "text": "2.", "answer_id": "ZVAjdMLcJXYPat5vGPaj86", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-71", "prompt": "What is on the front of the brown table?", "text": "Kitchen counter.", "answer_id": "cgifs3UnqCuVVL9r88DK4Q", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-72", "prompt": "What is pulled up to the table?", "text": "Chair.", "answer_id": "3f5XegBG5Tuu24aKjLdqdE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-73", "prompt": "What is the position of the chair from the right of the table?", "text": "The chair is on the right side of the table.", "answer_id": "GKfHseZpNVUjU6drjJAhmt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-74", "prompt": "To what side of a table is the trash can located?", "text": "Right.", "answer_id": "D5wtBqGGx8a85dmMkefdHn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-75", "prompt": "What type of refrigerator is in the corner of the room?", "text": "Stainless steel.", "answer_id": "ABsjLQ4J7DQpPSPkNMijZq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-76", "prompt": "What is to the left of the room?", "text": "Door.", "answer_id": "YHLqFs4HH2gdguyUhkUPpY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-77", "prompt": "Where is the chair with no arms that is pushed furthest away from table located?", "text": "In front of the trash can.", "answer_id": "L4ECc7cLwo64iVVQWVBhDE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-78", "prompt": "Where does the brown cabinet set?", "text": "Below the counter.", "answer_id": "Tx7TcM36uJrZLS6NjLEjjp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-79", "prompt": "What part of the room has a fridge to its right?", "text": "Kitchen.", "answer_id": "gQBQBUzeYg8vLxSftbWyn5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-80", "prompt": "What is the brown table surrounded by?", "text": "Chairs.", "answer_id": "LsqPffNwscA6mRnZPCeWtF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-81", "prompt": "Where do the chairs set?", "text": "Around the table.", "answer_id": "6F5guUD7N548oSbLEtmQ45", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-82", "prompt": "What kind of tv is affixed to the wall?", "text": "Flat-screen.", "answer_id": "YiHUKnueiktJvytfm6drkc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-83", "prompt": "Where is the big screen tv affixed?", "text": "Wall.", "answer_id": "fsXmsxEonDmxmLiK4uDEZf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-84", "prompt": "What is on the left of the kitchen counter?", "text": "Door.", "answer_id": "6YUTqg8tuwb6qnbQpRNYjW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-85", "prompt": "Where is the table?", "text": "In the middle of the room.", "answer_id": "KEQRx9z84smfddRf5tfUeE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-86", "prompt": "Where is the chair pulled into?", "text": "Table.", "answer_id": "YTSVw62euMoSVq4zcPWrj7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-87", "prompt": "How many chairs are to the left of the table?", "text": "4.", "answer_id": "iEocnaQ9a6Sc6WNhDchSjK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-88", "prompt": "How many chairs are to the right of the table?", "text": "3.", "answer_id": "LHJAkSuMCcwjuXsQ3zAhxM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-89", "prompt": "What is the chair in front of?", "text": "Table.", "answer_id": "dJ2L9MSYgC3B8oHYDBrcFR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0011-90", "prompt": "Where is the brown chair located on the table?", "text": "At the head of the table.", "answer_id": "2ZYFKgbj39zE9WLSZ7Kmaa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-0", "prompt": "What color is the wooden desk on the first row of the classroom?", "text": "Light brown.", "answer_id": "Zug4z66AdueNuYYizhcWeP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-1", "prompt": "Where is the beige wooden desk placed?", "text": "In the middle of the room.", "answer_id": "Ykwvd6jaATpX7QvwHw9RZS", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-2", "prompt": "What is placed in front of a desk?", "text": "Chair.", "answer_id": "MLqaMJnBgeZW2o65qrVqpB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-3", "prompt": "Where is an office chair placed?", "text": "In front of a table.", "answer_id": "HYssgxvfu7VsCJ74SdAg4j", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-4", "prompt": "Where is the wooden steel desk located?", "text": "In front of the window.", "answer_id": "PKKb8SyzpA5YTztBH8deQd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-5", "prompt": "What color is the office chair?", "text": "Black.", "answer_id": "LjT4XXc8gnHxX7mR6CJzfX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-6", "prompt": "Where is the black office chair placed?", "text": "In front of a wooden desk.", "answer_id": "544tNyMEdHvGytq8YuxHAE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-7", "prompt": "What is next to the table?", "text": "Chair.", "answer_id": "5bDMixccC52iP27GRP8Asw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-8", "prompt": "The office chair is placed next to what part of the room?", "text": "Next to the table.", "answer_id": "PyfJXezRJMHKeVhN4Lficd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-9", "prompt": "What is in front of the windows?", "text": "Table.", "answer_id": "ieyvNvy2L9AUvfQFmUmLfH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-10", "prompt": "What is the backpack on?", "text": "Chair.", "answer_id": "2v2ojeFircJpYP28gZRWCE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-11", "prompt": "What is the water bottle on?", "text": "Table.", "answer_id": "6qiJvxC6rFgBVVFxSyjUmk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-12", "prompt": "What color is the wooden steel desk in the room?", "text": "Brown.", "answer_id": "Los2gS3M4yxgreuQzbjyaE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-13", "prompt": "On what part of the room is the beige wooden steel desk located?", "text": "Center.", "answer_id": "AD3x3MoGdjPkxa2MX2gMFT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-14", "prompt": "Where is the short table located?", "text": "In the center of the room.", "answer_id": "hJPaA3276gJQwCkH6YBJPA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-15", "prompt": "Does the chair have arms?", "text": "No.", "answer_id": "b3BZRzvD8QFcuoWJz88GhM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-16", "prompt": "Where is a wooden chair with no arms located?", "text": "At the head of the table.", "answer_id": "fPPgkhjacFf8wnXRFEMUxv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-17", "prompt": "What type of table is located near a single chair?", "text": "Rectangular.", "answer_id": "PDaJpRWB7MJeLCkrSBn5fR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-18", "prompt": "How close is the single chair to the wall?", "text": "Very close.", "answer_id": "5FbbG78eXGMWErmpk2h28T", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-19", "prompt": "Where is one end of the tan table?", "text": "In front of the window.", "answer_id": "PfZJkYypEX4qFiBQ4BqaWo", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-20", "prompt": "What is the patterned chair facing?", "text": "Table.", "answer_id": "JHGLeqCNTcvnJgc8rccxup", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-21", "prompt": "In what part of the room is the black chair located?", "text": "In the corner of the room.", "answer_id": "YWmxarnSuu7BTeUEGUFvFX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-22", "prompt": "What is the table in front of two chairs?", "text": "Rectangular table.", "answer_id": "jHjRxCqRBmGu3XCNE4D4ag", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-23", "prompt": "How many other chairs does the polka dotted chair set between?", "text": "2.", "answer_id": "kJXriMRiDEDzgDLd8Nx6nK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-24", "prompt": "What kind of chairs are set around the table?", "text": "Patterned chairs.", "answer_id": "AtTmcDycaxABfPQhQnKCAL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-25", "prompt": "Where does the black chair set?", "text": "At table.", "answer_id": "USSNMnvroCijZZtHn4JVUp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-26", "prompt": "What color is the dotted chair?", "text": "Blue.", "answer_id": "crbG6bM8iXk6s4MdPbBoar", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-27", "prompt": "Where does the polka dotted chair set?", "text": "In middle of room.", "answer_id": "FTTRjgzYLeE53qzHMFFcZe", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-28", "prompt": "What type of table has a wood look?", "text": "Rectangular.", "answer_id": "jJqNMFQAiCZonw5Q8yTXqa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-29", "prompt": "The 3rd table is on the side close to what?", "text": "Close to the wall.", "answer_id": "HMfj8bLBbaiAFG9gRgN39d", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-30", "prompt": "Where is the armless checkerboard blue padded chair in class?", "text": "In front of table.", "answer_id": "fsf6Kmifqwm99heWFRSZJX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-31", "prompt": "Where is the long table on one end?", "text": "In front of the window.", "answer_id": "b5VfA2tSzfwGmqkPW749HF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-32", "prompt": "What is facing the chair with no arms?", "text": "Table.", "answer_id": "TBYNFGrUPRhJbYcXMrnEwo", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-33", "prompt": "How many chairs are behind the long table?", "text": "12.", "answer_id": "7vWTQmTGEmBMjpKN8ejP8i", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-34", "prompt": "What type of table is next to a patterned chair?", "text": "Rectangular.", "answer_id": "RUvCZ3u7hjuKiexxXpHevc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-35", "prompt": "What kind of chair is next to the wooden table?", "text": "Patterned chair.", "answer_id": "kV8wy5em59PDcfaqQQ7YSZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-36", "prompt": "Where is the table in the room?", "text": "In the middle of the room.", "answer_id": "mK58BNZquzqGFGv36sd3XS", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-37", "prompt": "What is around the table in the back left of the room?", "text": "Chairs.", "answer_id": "5dBS6ekmZUgvSrRmsd3GgP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-38", "prompt": "The chair is with what in the back in front of the white board?", "text": "There is a backpack.", "answer_id": "DrpD85qu4wumJg4Tq2pRwf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-39", "prompt": "What color is the chair?", "text": "Gray.", "answer_id": "A4XKqoXT576BGhu63NvvQ6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-40", "prompt": "Where is the chair on the left?", "text": "Left of table.", "answer_id": "7oYaDySMFiVFZPSZivwgLp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-41", "prompt": "What is on the wall on the left side of the chair with a backpack on it?", "text": "Whiteboard.", "answer_id": "LNoE8Fav2vbSCr2d8mZqbX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0015-42", "prompt": "How many chairs face the table with a Starbucks cups on it?", "text": "2.", "answer_id": "Ww2auEByTSRNpRAWKwZKJi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-0", "prompt": "How many brown arm chairs are stacked against the white wall?", "text": "4.", "answer_id": "eLj8d4hqPkhERG5TWwe5sb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-1", "prompt": "How many black chairs are next to the chairs?", "text": "2.", "answer_id": "k6FQAFnruxBsRiwZ5qzi4z", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-2", "prompt": "What's the color of the chair stacked in a row?", "text": "Brown.", "answer_id": "hnMa4qjoTmBPWJCDePMMyM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-3", "prompt": "How many black chairs are located between six brown chairs and a black couch?", "text": "2.", "answer_id": "YLkfU997xfqwJHeVfu6MJu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-4", "prompt": "What objects are sitting on the black couch?", "text": "Pillows.", "answer_id": "Z6C4Cdtd6ECEwYhdN73khh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-5", "prompt": "What color are the chairs next to the couch on right?", "text": "Brown.", "answer_id": "9xCDT3bfZ8HWUN3sWrHerh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-6", "prompt": "What is the light brown object on wall opposite of black chairs?", "text": "Brown door.", "answer_id": "AFdm5pWCWdJCiZ3nvUXEmt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-7", "prompt": "What is to right of two black chairs when facing it?", "text": "Trash can.", "answer_id": "XzJXSgkNon3wG8qZPpDYJS", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-8", "prompt": "What color leather chair is next to the black sofa?", "text": "Brown.", "answer_id": "2QrPADfJ7XB4inHL9PjkKN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-9", "prompt": "What is to the left of the black chairs?", "text": "Trash can.", "answer_id": "UDeamLFWRHmUuTjjyXZB8N", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-10", "prompt": "What is the lamp next to the snack machine?", "text": "Lamp.", "answer_id": "EbYV3oAfWy7fsth8jQfqWT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-11", "prompt": "In what part of the building is the lamp located?", "text": "In the corner.", "answer_id": "9WDjVWfnmT6XM4PJoh764e", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-12", "prompt": "What is next to the snack machine?", "text": "Chair.", "answer_id": "5bsWHFTJmfnrWqTGY7526p", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-13", "prompt": "What is next to the tall floor lamp?", "text": "Couch.", "answer_id": "372weZUkjund6cA6LVZ5QL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-14", "prompt": "Where is the floor lamp next to the snack machine located?", "text": "On the floor.", "answer_id": "gPfgbJ5AaXj7qrUsiuyGpq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-15", "prompt": "What type of front does the snack machine have?", "text": "Glass.", "answer_id": "fRWHpoLt2DDvSGfzq6BHNS", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-16", "prompt": "What color is the trash container?", "text": "White.", "answer_id": "3hhzey8gKDQEtNX3Vx7fxj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-17", "prompt": "What color is the plastic bag in the doorway?", "text": "Black.", "answer_id": "Vc9zkSPFj2dNDZRD4egBmu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-18", "prompt": "How many chairs are upside down?", "text": "1.", "answer_id": "SgCGupW3ZKpWfGvb8ZTGpy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-19", "prompt": "What color is the chairs?", "text": "Brown.", "answer_id": "jWPV2zoRf7qzud6mNhbLgX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-20", "prompt": "How many brown chairs are next to a black couch?", "text": "2.", "answer_id": "UQGHqptnrnzwEZ9z7b3Xzt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-21", "prompt": "How many brown chairs are next to black couches?", "text": "2.", "answer_id": "JnAaUfsCFv9G2jaKTbURvD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-22", "prompt": "Where is the brown chair next to the black couches?", "text": "On the right side of the room.", "answer_id": "jPppyRjtkvXB5z56aKDGr3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-23", "prompt": "How many black chairs are in the middle between six brown chairs and black couches?", "text": "1.", "answer_id": "YnC7UnwWXYjzC7vVyr2ek8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-24", "prompt": "What is the black chair next to the brown chairs?", "text": "Chair.", "answer_id": "23uVtgCcLFfL2EjeuMrCWG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-25", "prompt": "How many brown chairs are there?", "text": "1.", "answer_id": "oKkg4zNcuYvBAsywvPkhpy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-26", "prompt": "What is on the opposite wall?", "text": "Door.", "answer_id": "ZV54vJ2N6wzVzqsXkMCavg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-27", "prompt": "How is the brown chair stacked?", "text": "Stacked on top of another chair.", "answer_id": "UnyYTouWcH3bhwcNLyWTwM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-28", "prompt": "Where is the brown chair from the left?", "text": "The brown chair is the second chair from the left.", "answer_id": "GHJEnPxuX6nyQu3HpCsGBi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-29", "prompt": "What is the vending machine full of?", "text": "Snacks.", "answer_id": "ZfDgcUcn7q2DZsPkmPhDrj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-30", "prompt": "What is the position of the brown chair from the left?", "text": "The brown chair is on the left of the other brown chair.", "answer_id": "67w9U3tUisCpBxey4bgovA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-31", "prompt": "What is in the back right of the room?", "text": "Couch.", "answer_id": "23GHTxBsJPHuWZW6WyGzx3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-32", "prompt": "What is to the left of the door?", "text": "Trash can.", "answer_id": "nfpERjDP7oPqA7WuUZu6eN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-33", "prompt": "Where is the trash can located?", "text": "To the right of the door.", "answer_id": "MkcJCqAFXgdeAaCJfdvzsc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-34", "prompt": "How many cushions are visible on black couch?", "text": "2.", "answer_id": "af3NFnNr4D4H55BRgHFhk3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-35", "prompt": "What is closest to black couch on other side?", "text": "Couch.", "answer_id": "ddCfkxgyX3jAKBGYgZJPyx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-36", "prompt": "What is left of the stack of red chairs?", "text": "Trash can.", "answer_id": "AzjJ8E7D8VFHApjMo9NYWJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-37", "prompt": "What is right of the black couch?", "text": "Coffee table.", "answer_id": "Qv2uwydEo4mfBNDm7PbCkz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-38", "prompt": "How many chairs have red chairs stacked on them?", "text": "3.", "answer_id": "kLhcooZLoPuD7gemratX6n", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-39", "prompt": "What is to the right of the vending machine?", "text": "Trash can.", "answer_id": "Ar7E49nnu3CxBS6AnnTtTR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-40", "prompt": "What is to the right of the trash can?", "text": "Door.", "answer_id": "eHZxu4daYnEAKcYyNbvTB6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-41", "prompt": "What color is the door nearest the trash can?", "text": "Brown.", "answer_id": "4zts7eafgTtRSV9eXujsKG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-42", "prompt": "What color is the couch?", "text": "Brown.", "answer_id": "j3bo3RnvLiZbGWHMokH9EZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-43", "prompt": "What is to the left of the couch?", "text": "Trash can.", "answer_id": "mrt5ChSMipnrNvo7JAWENe", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-44", "prompt": "What is across, from the left side of the vending machine?", "text": "Trash can.", "answer_id": "C8gdWiHStAGZmChJWrH5gQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-45", "prompt": "What is located near a door in a corner of a room?", "text": "There is a trash can.", "answer_id": "K2P6WWtfSkgwdrpRBrg4e2", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-46", "prompt": "What has the trash can been placed adjacent to?", "text": "Chair.", "answer_id": "bexxLNqbCBnZf364oLJapT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-47", "prompt": "What is to the left of the lamp?", "text": "Door.", "answer_id": "NqKCYrXVeFoh4GnDLEbC9k", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-48", "prompt": "What sits left of the vending machine?", "text": "Couch.", "answer_id": "MdYo7qERz5sWUaS5ZVh9qy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-49", "prompt": "Where are a stack of chairs located?", "text": "In front of a door.", "answer_id": "WhkzxdgfA7bAigGGDbmCTK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-50", "prompt": "What color are the chairs on the floor?", "text": "Black.", "answer_id": "iHPb8xHHkcE5kcdeoVubKc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-51", "prompt": "Where are the two black chairs located?", "text": "In front of the vending machine.", "answer_id": "Qyem8rWJeEU9PtXKTQzTYJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-52", "prompt": "What is in the corner, to the left of the door?", "text": "Trash can.", "answer_id": "jGvDvsLsjYFEx9C6KFiJWJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-53", "prompt": "What is to the right, of the vending machine, in the corner?", "text": "Trash can.", "answer_id": "ExfEkZWEbyoTkQ4uoPpWjv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-54", "prompt": "What color leather chair is located on the top right end of the second row?", "text": "Black.", "answer_id": "JfAH3yLaMkjynwQJLPxnAn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-55", "prompt": "Where are the chairs stacked?", "text": "Against the wall.", "answer_id": "ipUcBTqgyCMuQ89zBpc8DJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-56", "prompt": "How many leather chairs are right of the black couch?", "text": "2.", "answer_id": "dtXeD32u3AdBxkmgCNRxJN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-57", "prompt": "Where are the brown stacked chairs located?", "text": "In front of the door.", "answer_id": "U4SGCgsio5bH385qWRk7sN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-58", "prompt": "What color leather chairs are between hanging brown chairs and black couch?", "text": "Brown.", "answer_id": "7d8CDgpQrUDL4R3r5V5mTk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-59", "prompt": "Where is the red chair on the left?", "text": "In front of the door.", "answer_id": "BKTVwRkqzYBPhDuXZiPNUJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-60", "prompt": "What color is the chair on the floor?", "text": "Black.", "answer_id": "cdrr47km5cCDS5xBmMDmHt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-61", "prompt": "How many chairs are stacked two high?", "text": "1.", "answer_id": "D5q6q7S4Q7ELdZXuhDM5ET", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-62", "prompt": "What is next to the black snack machine with a white shade on top?", "text": "Brown wooden door.", "answer_id": "g95eCEqdiBjBS84vW3kUX3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-63", "prompt": "What color is the door next to the trash can?", "text": "Brown.", "answer_id": "aEbqjXfojgeYggf3Ghh2Py", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-64", "prompt": "What is on the floor to the right of the vending machine?", "text": "Trash can.", "answer_id": "mg99WBkr2DivdnSZ9JjydD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-65", "prompt": "Which door has a trash can next to it?", "text": "The door on the right.", "answer_id": "8bJVCGSnW4FGqy899GAvko", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-66", "prompt": "Which door faces the couch?", "text": "The door on the right.", "answer_id": "8yXM8q4baiWw8HyfPoxicP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-67", "prompt": "What is inside the trash can?", "text": "Plastic bag.", "answer_id": "7vnpDMKnArv7iR6qgPAnQH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-68", "prompt": "What color is the trash can on the floor next to the door?", "text": "White.", "answer_id": "KEXyjyrVPU3KbLzNAzuNHj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-69", "prompt": "The tan wood door is open flat against the wall beside what?", "text": "Next to a trash can.", "answer_id": "Vbrbxfs6EA83LdranxgVjF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-70", "prompt": "What is close to tan wood door?", "text": "Trash can.", "answer_id": "TfHjB5sv8sEDLNjmPJUSam", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-71", "prompt": "What type of machine is in the corner of the room?", "text": "Vending machine.", "answer_id": "n2QUwXSSDbkqeqYRHSHJSs", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-72", "prompt": "What long piece of furniture can seat multiple people?", "text": "Couch.", "answer_id": "FN22SQnTzmDWZnetCJwGFx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-73", "prompt": "How is the black couch designed to seat 3 people?", "text": "It is designed with a backrest and armrests.", "answer_id": "VAp6WiT2fsyHs5nfkKeXg6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-74", "prompt": "What is located across from a vending machine?", "text": "Door.", "answer_id": "eChKNDx6qfWGTwtHgfpyJx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-75", "prompt": "What is the tall tan door located across from?", "text": "Trash can.", "answer_id": "2smFFvBZg5DxU2tiY6shh8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-76", "prompt": "What type of machine is by the standing lamp?", "text": "Vending machine.", "answer_id": "jpiyLHovRxbhSPDcw7FbNP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-77", "prompt": "What color is the couch on the left of the vending machine?", "text": "Black.", "answer_id": "2hJ8FWQAqjwLUAHQuj8FAY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-78", "prompt": "How many cushions are on the black sofa?", "text": "2.", "answer_id": "aCgvfqZgAdUGEBfEwMRZZt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-79", "prompt": "What type of lamp is beside vending machine?", "text": "Cylindrical.", "answer_id": "Mm5UroQLcJ5HjaeDrZNpxs", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-80", "prompt": "What is to the left of floor lamp?", "text": "Couch.", "answer_id": "9hwMD4r9imGmsM8NNjftzG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-81", "prompt": "What color shade does the floor lamp have?", "text": "Brown.", "answer_id": "AuA8NWmNd7P4LDCyB8ZtuM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-82", "prompt": "What type of lamp is in the corner by the vending machine?", "text": "Cylindrical.", "answer_id": "hjcqoXsZ2jQmgEdx3a3myZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-83", "prompt": "Where are several chairs located?", "text": "In front of a table.", "answer_id": "JpDES4tGVvuKGoAW8PM4pn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0019-84", "prompt": "What color are the chairs on the wall?", "text": "Brown.", "answer_id": "kfAJ2mYiF742jTG6G2sQsa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-0", "prompt": "What objects are closest to windowsill on shorter desk?", "text": "Monitors.", "answer_id": "6CT83bjoDkELsFaeonhsgV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-1", "prompt": "What is sitting closest to windowsill on longer desk?", "text": "Monitor.", "answer_id": "YdXKt33Uw4v7CbehYiBuMq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-2", "prompt": "The black keyboard is in front of which monitor?", "text": "Right.", "answer_id": "Mi9UYVSXtt42YwDwFmdRDJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-3", "prompt": "What is next to the couch?", "text": "Next to the couch is a table.", "answer_id": "msU4jhK6W5d67koDTDS2C4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-4", "prompt": "Where is the cabinet located on the right side of the couch?", "text": "In front of the couch.", "answer_id": "9Dh64QZRPqDeHEoLh9LXn7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-5", "prompt": "Where is the keyboard located?", "text": "On desk.", "answer_id": "U8ch5LtXWvA3rpt87UpNs8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-6", "prompt": "What is on the right of the door?", "text": "Tall white cabinet.", "answer_id": "LGdP3MwdNkzjoMsgBU8E82", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-7", "prompt": "On what color desk is the monitor closest to a whiteboard?", "text": "Brown.", "answer_id": "jNfaYhDEqGA2sk6qjoecXx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-8", "prompt": "What is the monitor closest to?", "text": "Closest to the whiteboard.", "answer_id": "fg3vPS42zjic6hQjaTsRAy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-9", "prompt": "What shape is the monitor shaped like?", "text": "Rectangular.", "answer_id": "NeVaiCcfJqgpBJbgK5xqZD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-10", "prompt": "What is the monitor in front of?", "text": "Keyboard.", "answer_id": "m6jpxkXy3EBvZVLVfGarT8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-11", "prompt": "What color is the desk behind the office chair?", "text": "White.", "answer_id": "SoeEytN5Aa2U7w3bYNXnaC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-12", "prompt": "What is the height of the white side table?", "text": "Medium.", "answer_id": "dmBRsXVm35Gf4p9TMnjKk6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-13", "prompt": "What color is the side table?", "text": "White.", "answer_id": "Kevog3nRpekyMu8958GWdV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-14", "prompt": "On top of the desk is a variety of office supplies such as computer monitors and what else?", "text": "Keyboard.", "answer_id": "hutKEXTQQFvGPDyANGUTM6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-15", "prompt": "What is the size of the off white and black monitor?", "text": "Standard.", "answer_id": "kBh6MZ9ff92wFStLHYYRaT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-16", "prompt": "Where is the pillow located?", "text": "On the couch.", "answer_id": "Z7sQAD6YqtX8N3vH8KpyL4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-17", "prompt": "On what side of the wheeled chair is the file cabinet located?", "text": "Left.", "answer_id": "frPvPsaxqb9kGwcYFtj5mx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-18", "prompt": "What color is the sofa?", "text": "Black.", "answer_id": "EQmGNqbTNd7658SjpQ6LJB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-19", "prompt": "What color is the semi-opened computer case?", "text": "Black.", "answer_id": "7hL2N2bKafzwuBibyNHubk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-20", "prompt": "What color is the keyboard on the desk?", "text": "Black.", "answer_id": "nZQBhBykHWFpSdx2CN46Eb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-21", "prompt": "What color is the monitor screen on the shorter curved table closest to window?", "text": "White.", "answer_id": "cpPhoxzQvvgxLb4nzTcozN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-22", "prompt": "What is sitting in front of tall white shelf?", "text": "Black couch.", "answer_id": "GpVdQNNkDnCXh5qUMsj9k6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-23", "prompt": "How many monitors are on shorter curved table?", "text": "2.", "answer_id": "kzys4yt23eLrQ4RcgPazUo", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-24", "prompt": "Where is the monitor sitting?", "text": "On desk.", "answer_id": "V7QBRN7YyEpUy5sgFd5rfy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-25", "prompt": "What color is the keyboard on the smaller of two desks?", "text": "Black.", "answer_id": "3CsnbmLszQCTKRh8kigNPg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-26", "prompt": "Where is the white keyboard located?", "text": "On desk.", "answer_id": "VMuUBQCjRY74RzUStq5Exi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-27", "prompt": "The small cabinet sits underneath the window with what on top of it?", "text": "There is a bottle on top of the cabinet.", "answer_id": "HopQcpsHeP4LWDme5wv4Ld", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-28", "prompt": "What color is the throw pillow?", "text": "Black and white.", "answer_id": "Rd8GGvS3XETzb7GtF4WQcU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-29", "prompt": "What color sofa is the throw pillow in?", "text": "Black.", "answer_id": "ZJ5navWxFrpZchWi3s5mWb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-30", "prompt": "What color does the sofa look?", "text": "Black.", "answer_id": "PjecHGyqbtUzcEeUW2MJis", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-31", "prompt": "How many monitors on the desks?", "text": "3.", "answer_id": "SkSbmEFegL6rqD8HgDvUUa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-32", "prompt": "What is the sofa sitting in front of?", "text": "Whiteboard.", "answer_id": "4YPNax7Y8vAESAS2SuoGof", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-33", "prompt": "Where is the bookcase placed?", "text": "On the floor.", "answer_id": "Nk6C7Y3qU4EtwmhRDyehHA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-34", "prompt": "What color is the pillow on the left of the black couch?", "text": "White.", "answer_id": "iKKvyUexmdxu6tzuEP7zdc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-35", "prompt": "What color is the office chair on wheels?", "text": "Black.", "answer_id": "mxb7mZ9ZkWNwuAdUNLwAo2", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-36", "prompt": "Where is the black office chair on wheels located?", "text": "In front of a desk.", "answer_id": "8fieDtsdVx5h5ameo2nzgo", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-37", "prompt": "What is the shelf next to?", "text": "Next to the whiteboard.", "answer_id": "8kjTun6XfTqPSmarwUPR8C", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-38", "prompt": "What color is the keyboard?", "text": "Black.", "answer_id": "XAQvw3xumBnSBamKxGPNYH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-39", "prompt": "The keyboard closest to the door is located on the desk in front of what?", "text": "In front of the window.", "answer_id": "A3om9U2vzr2ePffAR7zbtr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-40", "prompt": "Where is the door located?", "text": "Right of the cabinet.", "answer_id": "f4gFkqRZ8md484ttExsVsk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-41", "prompt": "What color sticky note is attached to the monitor?", "text": "Yellow.", "answer_id": "9ULf7K3yGhwanTxWtLa2W5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-42", "prompt": "What color shelf is in a corner next to a black couch?", "text": "White.", "answer_id": "GJDtUHFR6ewymTb68A2J6x", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-43", "prompt": "What is to the right of the black couch that sits to the right of the door?", "text": "White cabinet.", "answer_id": "TwLDVS4EN358bnt9odogL4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-44", "prompt": "Where is the long tan desk located?", "text": "In front of the window.", "answer_id": "EPo4ngrneyDRezS7Cot72Y", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-45", "prompt": "What is next to the long tan desk?", "text": "Chair.", "answer_id": "ZMXAcJswjGiZY9p6rxyuMX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-46", "prompt": "Where is the black short black shelf located?", "text": "On the floor.", "answer_id": "Xi3V23vyctxAc8ZjX4LecN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-47", "prompt": "What color is the pillow?", "text": "Black and white.", "answer_id": "RfMLDnrgbM5rpX4zKhBmH7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-48", "prompt": "In what corner of a black couch is the gray pillow located?", "text": "Left.", "answer_id": "SzBhLtFhUiUe3AiJ4wkXMQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-49", "prompt": "Where are the black chairs located?", "text": "In front of the desk.", "answer_id": "S8hYDLgHXyghFCZeWeSZ6D", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-50", "prompt": "What color is the sticky note on the monitor?", "text": "Yellow.", "answer_id": "KALdcFekyhbiengsxxb8Qb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-51", "prompt": "Where is the white cabinet next to a black couch?", "text": "On the floor.", "answer_id": "JLg4iCVYAgR9uZ6zFmpZBJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-52", "prompt": "What color is the couch in the corner of the room?", "text": "Black.", "answer_id": "UTyKDXM9rdrPS9xEohjEi4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-53", "prompt": "What color screen is sitting on the desk next to a black framed computer screen?", "text": "White.", "answer_id": "Lv4i2y9Zg4M7woeCNv9Ayw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-54", "prompt": "What color is the couch near the shelf?", "text": "Black.", "answer_id": "mSn4hraACDFirtcXQcf2Ai", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-55", "prompt": "What is to the right of the door?", "text": "Shelf.", "answer_id": "b7xguDP4SnrNhQzw9U9VpW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-56", "prompt": "What is the file cabinet under?", "text": "Desk.", "answer_id": "jSGrgv5EvGfQ4RzHxNS7md", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-57", "prompt": "What color is the file cabinet?", "text": "White.", "answer_id": "TMvKPXsdCPkKPd7km5FnXc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-58", "prompt": "What shape is the desk in the middle of the room?", "text": "Rectangular.", "answer_id": "nniRWawQsmUXuMgJvYi9CY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-59", "prompt": "What beverage is on top of the desk?", "text": "Bottle.", "answer_id": "LcLALyy7wFibsZQFx8dzgV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-60", "prompt": "What is above the pillow?", "text": "Picture.", "answer_id": "5FCCEM7SFvhfUqLM3eQhFa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-61", "prompt": "What color couch is the pillow on?", "text": "Black.", "answer_id": "fF33Nzsc6pMjRJJsbYZHYv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-62", "prompt": "What color is the cube shaped file cabinet?", "text": "White.", "answer_id": "nbLEZxmRiSKhUScaXu5d3M", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-63", "prompt": "What color is the couch beneath the whiteboard?", "text": "Black.", "answer_id": "GgxZYgLhnn5vmTbq4ZZxXm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-64", "prompt": "What is in front of the couch that is beside the shelf?", "text": "Table.", "answer_id": "K3YmjYrhwQQwGBxPE7ZmQU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-65", "prompt": "What is on the wall in the back left corner of the room?", "text": "Whiteboard.", "answer_id": "FQostp2nYTm3YFohhSm9bw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-66", "prompt": "On what side of the room is the shelf located?", "text": "Left.", "answer_id": "GFz3prpdzR6zzEQ6VWCSbb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-67", "prompt": "Where is the ottoman located?", "text": "In front of the couch.", "answer_id": "jrT3SEeDoADQGjJJDEZi8L", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-68", "prompt": "What is located to the left of the door?", "text": "Tall white cabinet.", "answer_id": "e6hBNXq9QyWofqbc6fRUJP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-69", "prompt": "What is in front of the shelf?", "text": "Couch.", "answer_id": "aYcPdSLhBmEmNCqoCYMCPt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-70", "prompt": "Where is the black office chair located?", "text": "In front of the desk.", "answer_id": "PMzBvS65thDnEeJ2gsbdR3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-71", "prompt": "What color is the door?", "text": "White.", "answer_id": "J4nPje8Edzgig4cQrx3hEU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-72", "prompt": "In what part of the room is a desk located?", "text": "Center.", "answer_id": "ARSA3p64PHfBw3EEYrML39", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-73", "prompt": "What shape is the desk on the left side of the room?", "text": "Rectangular.", "answer_id": "LaDg6SwYJPzqVQodt69hPj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-74", "prompt": "What is the telephone on top of?", "text": "Desk.", "answer_id": "4dT7S6B6jw3aCyGKiBZHdw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-75", "prompt": "What color metal box is on top of a curved table?", "text": "White.", "answer_id": "5YDN9wvgYgnPStgAfwFT26", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-76", "prompt": "The chair is to the right of what table in the center of the room?", "text": "Desk.", "answer_id": "TG8CKTN3zoxreEgGx9aGt2", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-77", "prompt": "What color is the chair in the center of the room?", "text": "Black.", "answer_id": "6JwvSSTWawtqj6o3Qegzpz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-78", "prompt": "What is in front of the monitor?", "text": "Keyboard.", "answer_id": "WWDYFpjMUFHQSU4zXicerY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-79", "prompt": "What is located to the right of the shelving?", "text": "Whiteboard.", "answer_id": "CZDyiKKVG3fXK85FvUFhcX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-80", "prompt": "On what side of the desk is the telephone located?", "text": "Right.", "answer_id": "UCJaFL8JCfNQcjxWCNXLcZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-81", "prompt": "Where is the telephone located?", "text": "On desk.", "answer_id": "6etwFBDmXWosUffjeqUGAn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-82", "prompt": "The office chair has casters for what?", "text": "Mobility.", "answer_id": "eGBoq8hL3MeTAzT4y6Mqgc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-83", "prompt": "Where is the shelf located?", "text": "Left of the door.", "answer_id": "52nSDjgRK3aYqXFwycSAk9", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-84", "prompt": "On what side of the monitor is the shelf located?", "text": "Left.", "answer_id": "CRjZ5bzWJgHUtQ9eLuaGtX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-85", "prompt": "What is sitting at the desk?", "text": "Monitor.", "answer_id": "M5nTfanvr4stKhHEbyQtDz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-86", "prompt": "The black chair is in front of what on the wall?", "text": "Whiteboard.", "answer_id": "Q4MPhuTgAGR7YGEx8M8dVp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-87", "prompt": "What is sitting under the desk?", "text": "File cabinet.", "answer_id": "JzEuwYquG6Uz5GVTfrTBsL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-88", "prompt": "What is sitting near a keyboard?", "text": "Computer.", "answer_id": "QJWLMUt9U3An5bvpdFMPTE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-89", "prompt": "How many empty bottles of coke are behind the black desk chair?", "text": "2.", "answer_id": "4hcc3dseWxTVQAPxajMJC5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-90", "prompt": "Where is the white cabinet in relation to the couch?", "text": "Right.", "answer_id": "LE6ipTNLygbuYhAvha3bp3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-91", "prompt": "What is placed on a desk?", "text": "Monitor.", "answer_id": "jZgtqV5sP3mFKFsdTw5dhm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-92", "prompt": "What is in front of the keyboard?", "text": "Mouse.", "answer_id": "bAERAXj5BuRZvarEMkAfWw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-93", "prompt": "What is to the right of the white work phone?", "text": "Monitor.", "answer_id": "cziKGKwJL5QnGjEp7vkAgQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-94", "prompt": "On what part of the table is a table leg located?", "text": "Right side.", "answer_id": "JGgeV573uapD82FWq8LY5b", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-95", "prompt": "What is sitting next to the computer desk?", "text": "Chair.", "answer_id": "ALXu8qZzV4h6B3PyvyfJGb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-96", "prompt": "What is beside the black couch?", "text": "There is a pillow.", "answer_id": "Hs5QTZmiw44wtzAgqA7GYB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-97", "prompt": "What is in front of the couch?", "text": "Ottoman.", "answer_id": "9ugVRFqCxjepBFenRDBgkt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-98", "prompt": "What is on the cabinet?", "text": "There is a fan.", "answer_id": "dv92AJ3sQyzmqbAx6CLEhf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-99", "prompt": "What is covering the window?", "text": "Blinds.", "answer_id": "JZH2auQnsXLnqZxTqYAeCy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-100", "prompt": "What color is the couch?", "text": "Black.", "answer_id": "3KfGtskKpnzqS6HDhM3osF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-101", "prompt": "What color is the filing cabinet on the floor?", "text": "White.", "answer_id": "WVEPi7Rj25WizjvKaBbB9v", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-102", "prompt": "In what part of the room is the couch located?", "text": "In the center.", "answer_id": "oV5okmEpVU9vBqy9QhSHDJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-103", "prompt": "What is in the front corner away from the office desk?", "text": "White cabinet.", "answer_id": "Z2C9SnbffUusMDPoGe8EUJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-104", "prompt": "What is directly to the right of the white shelf?", "text": "White cabinet.", "answer_id": "2SLAfRpjxpBhXvsVR2qfct", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-105", "prompt": "What sits atop the desk?", "text": "Monitor.", "answer_id": "U3GhuWinXarhGtWmPinxX3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-106", "prompt": "What is the keyboard in front of?", "text": "Monitor.", "answer_id": "F2TxP8HtrL654RVFoJkncu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-107", "prompt": "What is located to the left of the couch?", "text": "Shelf.", "answer_id": "ZX5sAFPwFLoUKLrHzhvSyY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-108", "prompt": "To what side of the chair is the file cabinet located?", "text": "Right.", "answer_id": "F4M7nMcmsxKZvzj52Gpqdh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-109", "prompt": "What is in the middle of the room?", "text": "Desk.", "answer_id": "AhYkgZQj9pBQtYUUfhuEDM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0025-110", "prompt": "What is on the right side of the desk?", "text": "File cabinet.", "answer_id": "MWE75bxphF6mLBbHZzcyeT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-0", "prompt": "What color is the table against blackboard?", "text": "Brown.", "answer_id": "MR8KQQspbbCf3cP4f6wRMC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-1", "prompt": "Where are the two different size tables located in room?", "text": "In middle of room.", "answer_id": "Whmp77Q2HJhCF6bVSKWDms", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-2", "prompt": "What side of long rectangular table is paper?", "text": "Left.", "answer_id": "QwTiKWsaP4TGiNu97NoGtd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-3", "prompt": "What color is the chair with wheels?", "text": "Blue.", "answer_id": "BzJtFpwWsJKSMTAUEEdbpg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-4", "prompt": "What is at the back of the room where the chalk boards meet?", "text": "Chair.", "answer_id": "6dH5Rc7RDnn5ZGtMjNdKFm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-5", "prompt": "How many chalk boards are there?", "text": "1.", "answer_id": "Pd4VPRXeVwn3GyYMxkY6HZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-6", "prompt": "How long is the table in front of the chalk board?", "text": "Long.", "answer_id": "AiJqRPinsgefrCa7gDfZXY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-7", "prompt": "The table in front of the chalk board is as long as what?", "text": "As long as the chalk board.", "answer_id": "em5hFEcmyiPnNFfK9kJDhr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-8", "prompt": "How many chairs does the table in front of the chalk board have around it?", "text": "4.", "answer_id": "8SzxCMfSqeatGP2SXjgX2F", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-9", "prompt": "What is the third chair under the chalk board?", "text": "Chair.", "answer_id": "LjrXuAT4DDpgvt86JgYrxw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-10", "prompt": "What is the color of the chair closest to the first book shelf closest to the door?", "text": "Brown.", "answer_id": "XR9C4ShhoVwv7T8JbeeHuA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-11", "prompt": "What chair is right of the blackboard that is closest to the door?", "text": "Chair.", "answer_id": "ZDqdTHDvtEhCYkCZkXauaD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-12", "prompt": "Which book shelf from the left is shorter than all the rest?", "text": "Bookshelf.", "answer_id": "DN8PcHTiqFFj2ztpXNqbJL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-13", "prompt": "What is to the right of the door?", "text": "Bookshelf.", "answer_id": "WkUe2VJGkfKokFxvpM6J4o", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-14", "prompt": "Where is the small book shelf located?", "text": "In the corner of the room.", "answer_id": "8cf3YPiXciNdYMqdiDqwJa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-15", "prompt": "What is at the end of the chalk board?", "text": "Chair.", "answer_id": "HWtwsyWYNPsn6EvMbvRFxG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-16", "prompt": "What color is the chair on the right of the chalk board?", "text": "Brown.", "answer_id": "AWw3qR2svScciQo3bL6VyF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-17", "prompt": "Where is the brown chair on the chalk board?", "text": "To right of the chalk board.", "answer_id": "ScvAucstkhgRwgHWvR3J2E", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-18", "prompt": "On what side of the door is the book shelf located?", "text": "Right.", "answer_id": "b8SaBZvs5DoMmpT99iCyeA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-19", "prompt": "What is in the corner of the room?", "text": "Chair.", "answer_id": "5biCmfZcar3cLvu9NtDVce", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-20", "prompt": "Where is the small bookshelf located?", "text": "To the right of the door.", "answer_id": "BxPqsc2s3daEe2B4hsTHB3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-21", "prompt": "What color blinds are on the window behind the bookshelf?", "text": "White.", "answer_id": "7EA5SmZh8TT5g2kBxj3Cjq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-22", "prompt": "What is in the corner by windows?", "text": "Bookshelf.", "answer_id": "kmqzfgWJFDceVqXrUE7Pv4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-23", "prompt": "What can be seen on chalk board?", "text": "Blackboard.", "answer_id": "8CgTTLQDRn73AM69wECf2h", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-24", "prompt": "What type of chair is in the corner of the blackboards?", "text": "Brown armchair.", "answer_id": "PciWMz9JWm6eyyTKJiMRNE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-25", "prompt": "In what part of the room is the brown armchair located?", "text": "Center of the room.", "answer_id": "QkP4Jz7ou3zsJGLNkyra2U", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-26", "prompt": "What is around the door?", "text": "Bookshelf.", "answer_id": "YrepkQFE2TzESm2efPk6Ga", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-27", "prompt": "What color chair is the tan chair next to?", "text": "Brown.", "answer_id": "NQEY3ofzdwPcfJGUd8Lqam", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-28", "prompt": "What is next to a desk?", "text": "Chair.", "answer_id": "DBxTqqf7swtedGDWaAQCir", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-29", "prompt": "How many chairs are at the desk?", "text": "1.", "answer_id": "K95R3zYYcCHoF7XSTctfxR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-30", "prompt": "What is next to the chalkboard?", "text": "Chair.", "answer_id": "fk3kiAQa3q6oNyu2JLiSJf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-31", "prompt": "What is on the bookshelf next to the chalkboard?", "text": "Books.", "answer_id": "mTxGcnJiMqvj7huBBCQjf8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-32", "prompt": "How many shelfs are on the book shelf?", "text": "3.", "answer_id": "nPdaz8HHmP59V522XtsdSw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-33", "prompt": "What is behind the armchair?", "text": "Whiteboard.", "answer_id": "Tg5UFZYFoCZBTmD9AQXqHN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-34", "prompt": "What is beneath the clock?", "text": "Chair.", "answer_id": "2B34TGZtkRLySD6sGNLu2t", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-35", "prompt": "What is behind the small bookshelf on the left side of the room?", "text": "Whiteboard.", "answer_id": "46oUSvvry65hZqoEVJh2yk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-36", "prompt": "Where is the broad brown plain table placed?", "text": "In the middle of the room.", "answer_id": "7c9rtsiotdFPJanfpwEUX2", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-37", "prompt": "What is rotatable?", "text": "Chair.", "answer_id": "myqgxCBctFQvWFR5hQfxAt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-38", "prompt": "Where is the rolling chair kept from the corner chair?", "text": "The rolling chair is on the left of the corner chair.", "answer_id": "c2LqT5ad2h9JkfheWB9Xs6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-39", "prompt": "What color is the chair in the corner of one side of the table?", "text": "Brown.", "answer_id": "Ydm7ZdbNEbkJUN3gbc2ny6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-40", "prompt": "What type of chair is close to the wall?", "text": "Brown armchair.", "answer_id": "BgHNzEuXUL2nex5wddyRio", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-41", "prompt": "How close to the wall is the chair with arms?", "text": "Very close.", "answer_id": "MZhtSQkRrKK3SqyQ2VCCEX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-42", "prompt": "What color is the tabletop with no arms?", "text": "Brown.", "answer_id": "5qN6v8b7ovzLzDXdgKxPv5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-43", "prompt": "What color is the cushion sofa in?", "text": "Brown.", "answer_id": "P3xfBiozzDfLiMXmGC23vF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-44", "prompt": "Where is the cushion sofa located?", "text": "In front of the blackboard.", "answer_id": "hZnMHD3DUUpnFwiDzxuNZW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-45", "prompt": "What type of table is kept at the corner of the wall?", "text": "Rectangular.", "answer_id": "Xqd5sjcTEgBh37QZt86oHd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-46", "prompt": "Where is a long table kept?", "text": "In the middle of the room.", "answer_id": "my7yMHLkUmb5BwrZQrSmhK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-47", "prompt": "What color is the chair near the center of the room?", "text": "Brown.", "answer_id": "YJidZCQUpS6c96pJiUh4PX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-48", "prompt": "What does the chair face?", "text": "Table.", "answer_id": "EsJHRCjriWucpDgDbyeQEt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-49", "prompt": "Where are the windows in the room?", "text": "On the wall.", "answer_id": "FLR5L29d6ra72duHbxcQhD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-50", "prompt": "What color recliner is in the corner of the room?", "text": "Brown.", "answer_id": "4nqL38fGuVZVVGMWTBgBSF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-51", "prompt": "Where is the brown recliner?", "text": "In front of the window.", "answer_id": "NAmppVwpxLFPEdmS94wMp7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-52", "prompt": "What color are the tables near the center of the room?", "text": "Brown.", "answer_id": "5zFQbVDrQSBHFeJBaDSR9S", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-53", "prompt": "What is at the right end of a table with windows directly to its right?", "text": "Chair.", "answer_id": "Roy4XrdUcxLziw2r4dhSCn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-54", "prompt": "Where is the light brown chair located?", "text": "In front of the whiteboard.", "answer_id": "2SFMLQDzAkDBXrQQRNGxKR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-55", "prompt": "What color office chair is placed in a table lying parallel to a long green board on the wall?", "text": "Brown.", "answer_id": "77zowiG9mioNoUViDHLLBV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-56", "prompt": "Where is the bookshelf placed?", "text": "In the middle of the room.", "answer_id": "EKkQ5a5uLanNwUZNiCzhuA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-57", "prompt": "How many green boards do the adjacent walls have?", "text": "1.", "answer_id": "jnAkDeHRqds9W3Ud7UPCsM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-58", "prompt": "What color is the chair on the left hand side of the door?", "text": "Blue.", "answer_id": "XBMP8v25FqhonoiVX9wwxg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-59", "prompt": "What color leather chair is located in the aisle in the middle of the room?", "text": "Brown.", "answer_id": "HTnvNkbqpj4XKzci3xFBXr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-60", "prompt": "Where is the brown leather armchair located?", "text": "In front of the whiteboard.", "answer_id": "DK4Ggpnhc8rXWifjVYjLst", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-61", "prompt": "What color chair is to the left of light colored table under blackboard?", "text": "Brown.", "answer_id": "ibctPLJiCf7LTTa48Ye7ME", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-62", "prompt": "On what side of the room is the brown leather armchair located?", "text": "Left.", "answer_id": "E9aMSzPHJsGM4H3Chspjp7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-63", "prompt": "What is on top of the bookcase?", "text": "Box.", "answer_id": "jx2ZkFXQHCR6BDUCeyzdBk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-64", "prompt": "Where is the bookcase located?", "text": "To the right of the door.", "answer_id": "HfdEK6vV9z7Wr5RYaW2Vpo", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-65", "prompt": "What is on the bookshelf next to the window?", "text": "Books.", "answer_id": "2dTVdSRMSgdyNZbpEMaRpT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-66", "prompt": "Where is the tall bookshelf located?", "text": "To the right of the door.", "answer_id": "77PFCXbHA3TgEVKdTksRu4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-67", "prompt": "What color is the chair with wheels located at a desk?", "text": "Blue.", "answer_id": "m49xLPRXse4kHsCUqDUySU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-68", "prompt": "The chair on the left of a desk is closest to what corner of the room?", "text": "Left.", "answer_id": "d4QrTRqiBbmjhTfMWE5Rvp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-69", "prompt": "What is the blue chair with 4 wooden legs under?", "text": "Under table.", "answer_id": "UWL8QXNNoxYXpxp3xmkCrM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-70", "prompt": "Where is the blue chair facing away from you when you enter the room?", "text": "Table.", "answer_id": "dtXmFjt29wRrQoDEtt9PuZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-71", "prompt": "What kind of shelving is in the right hand most corner next to the window?", "text": "Bookshelves.", "answer_id": "G7AzL9FJA3CUyLKr9YA2Kw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-72", "prompt": "In which corner of the room is the bookcase located?", "text": "Right corner.", "answer_id": "4RyCf9hur8DZaAqzQnTCXX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-73", "prompt": "Which table has the office chair with plastic wheels?", "text": "Brown table.", "answer_id": "MQ7yryFMfmvZr6xpSwpzGh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-74", "prompt": "What color is the chair at the desk farthest away from the entrance?", "text": "Brown.", "answer_id": "LU3ZvFp6FHuUo8g7KhwuM3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-75", "prompt": "In what color is the office chair facing away from you?", "text": "Brown.", "answer_id": "JhzcYArxwTeZovR23eM82k", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-76", "prompt": "What are there around the room facing the table?", "text": "Chairs.", "answer_id": "EKE7ysEK5KopDLQFvzXLgz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-77", "prompt": "What is the only chair in the middle of the room?", "text": "Chair.", "answer_id": "ZNo9JDmX8yaS6DU8ygvHFj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-78", "prompt": "What is on the wall to the right of the armchair?", "text": "Whiteboard.", "answer_id": "EQ4jVtyF57aaSEdom6A9HD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-79", "prompt": "Where is the chair located on the table?", "text": "At the head of the table.", "answer_id": "9gbcCUbYw9JngNFj3EkNXG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-80", "prompt": "How is the black chair removed from the desk?", "text": "Pulled away.", "answer_id": "4B3HxQ2tyMd3WLpDye2HSj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-81", "prompt": "What type of table is above the boxes?", "text": "Brown rectangular table.", "answer_id": "Ta6Xx9qyfz82WCTNGtCrfd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-82", "prompt": "The long table is above what?", "text": "Chair.", "answer_id": "B27BZBPvWUgRvZhrp4t9Ua", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-83", "prompt": "Where is the brown bookshelf located?", "text": "In front of the whiteboard.", "answer_id": "25DuBRN2gjqELFpioVFoyL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-84", "prompt": "What kind of table is under the window?", "text": "Desk.", "answer_id": "2weu45tA7nXQ7TVifZaZSt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-85", "prompt": "Where is the long table located?", "text": "In the center of the room.", "answer_id": "oESociV7YQiJswQUXhSC7A", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-86", "prompt": "What color is the chair that is pushed away from table in center row?", "text": "Brown.", "answer_id": "YxvVyMtm3aZGpwr9MqZi6H", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-87", "prompt": "The long table is across from what?", "text": "Bookshelf.", "answer_id": "KG8fdSzGLVWxz8GMqSEjQB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-88", "prompt": "Where is the long table?", "text": "In the middle of the room.", "answer_id": "dgfND3ebVcDo2hkLiMp45x", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-89", "prompt": "What is the black chair in front of?", "text": "Table.", "answer_id": "7NTruegYLhdbAz9BzxRUnr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-90", "prompt": "Where is the tan chair located?", "text": "At the table.", "answer_id": "ekjrejuxUC6c7gPiEAras3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-91", "prompt": "Where is the brown chair located?", "text": "At the table.", "answer_id": "isedap93v9qN2rjbSJa8Qj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-92", "prompt": "What color chair is next to the blue chair?", "text": "Brown.", "answer_id": "M2fXigiVk8u5BpabEF3vzF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-93", "prompt": "The rectangular table is in front of what?", "text": "Chair.", "answer_id": "LtoUoQoQsaMbwtBiJJh2Ni", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-94", "prompt": "How is the table placed to the wall?", "text": "Against the wall.", "answer_id": "YWPwfyfgbceqARLcaeWdiY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-95", "prompt": "Where can a single seat sofa be seen?", "text": "In front of the blackboard.", "answer_id": "cdEq6XCxk5nTr25Nh5fnv8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-96", "prompt": "What two chairs are in front of blackboard behind table?", "text": "Brown chair and blue chair.", "answer_id": "CPDXJhzH4iWZbeAmCtD3Y5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-97", "prompt": "What is the chair that is in left center row tucked under?", "text": "Under table.", "answer_id": "H5QdsSnnUCgin3S6YUP3Wx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-98", "prompt": "What kind of wheels does the chair have that sits at corner of a table with long rectangular table across from it?", "text": "Casters.", "answer_id": "gHpbjRRVLx5CcV43Gg5R2p", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-99", "prompt": "What is on the wooden table?", "text": "There is a box.", "answer_id": "crr8g5jZqGiZKsGTUKxPiK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-100", "prompt": "Along with a stapler, what else is on the table?", "text": "Box.", "answer_id": "TUqy8qzkK2PBrm7fqu9pgP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-101", "prompt": "What is tucked under the table on both of its long sides?", "text": "Chair.", "answer_id": "KwwXXmcDE88znaDozouQiB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-102", "prompt": "What is next to the bookshelf?", "text": "Chair.", "answer_id": "arERvgmNhzq5shECvfTM8v", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-103", "prompt": "What color is the chair on the left?", "text": "Brown.", "answer_id": "NsDTactDGHRNnanRgtaWMN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-104", "prompt": "How many legs does the chair have?", "text": "4.", "answer_id": "DdVmKTQ2KYxVYNyJcwjydu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-105", "prompt": "What color are the chairs closest to the tallest bookshelves?", "text": "Blue.", "answer_id": "a4PtEbDLgVjuy2ocd4JJi8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-106", "prompt": "How many bookshelves can be seen in the scene?", "text": "3.", "answer_id": "kkgMh3tHH5wvdjfTJcKhxi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-107", "prompt": "How many blackboards are in the room?", "text": "1.", "answer_id": "CsdS5qtFy4KxNK4inZegLW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-108", "prompt": "What is the table on the right in front of?", "text": "Chair.", "answer_id": "9TcHKFN6QBxCk2NDXbrb6B", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-109", "prompt": "What color is the table on the right in front of the book cases?", "text": "Brown.", "answer_id": "CsqYg9TdQrdqZxLJ4yPTRN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-110", "prompt": "What is the table in front of?", "text": "Chair.", "answer_id": "8CNQEmPBm9q9ExjHZDLZ9K", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-111", "prompt": "How many chairs are pushed under the chalk board?", "text": "2.", "answer_id": "oBhVYvH3EVPPJ5N4MPvE7c", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-112", "prompt": "What color is the table in front of a chalk board?", "text": "Brown.", "answer_id": "c76Wy3aiBWaUZriuDuRGkV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-113", "prompt": "Where is the auburn chair located?", "text": "In front of the whiteboard.", "answer_id": "BvPe7ocV9m7aJn4RyuXjCL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-114", "prompt": "What is in front of the brown table?", "text": "Chair.", "answer_id": "hm7v4jrcW7r5DGPmvfAHj6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-115", "prompt": "What is behind the brown table?", "text": "Chair.", "answer_id": "W6GZuL8g39K3XRFY4zEod6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-116", "prompt": "Where is the rectangular table located?", "text": "In the center of the room.", "answer_id": "nNcapXpyjZ8Kwskq7sYRK4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-117", "prompt": "The long table is below what?", "text": "Window.", "answer_id": "E8rPXrnRqNG4oRPwL3Ffx5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-118", "prompt": "Where is the chair with arms located?", "text": "At table.", "answer_id": "a9pCznt553r9oiJeAtufCA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0030-119", "prompt": "The blue office chair is pushed away from what object?", "text": "Table.", "answer_id": "jP9EQJeWuwRQAi3894qLzi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-0", "prompt": "What does it do?", "text": "Provides a place to sit and rest.", "answer_id": "g9NgP5CyCExeJMFTorjD3V", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-1", "prompt": "Where is the button located on the top side of the toilet?", "text": "Left.", "answer_id": "DBgxy5bvrDZKEGE5cC3gAm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-2", "prompt": "What is at the end of the hallway?", "text": "Door.", "answer_id": "GmevuKL6imG8VedfhAwoyp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-3", "prompt": "What color sign is on the black door at the end of the hallway?", "text": "Red.", "answer_id": "bk6drjGshZbgdNfwhequAR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-4", "prompt": "What is the tall brown cabinet next to?", "text": "Next to the bed.", "answer_id": "Y3SDFV2vgebHLEV5LkYhbG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-5", "prompt": "What color is the cabinet next to the blue plaid curtains?", "text": "Brown.", "answer_id": "mCZmqTjYSfeGiCaKBG8cho", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-6", "prompt": "What is hanging between the sink and the toilet?", "text": "Towel.", "answer_id": "gsLS2cZce5qZiTGN2gQL5x", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-7", "prompt": "Where is the blue towel hanging?", "text": "On the wall.", "answer_id": "2DChWFNuwQebdKTm6A5acL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-8", "prompt": "Where is the blue door located?", "text": "Left of the bathtub.", "answer_id": "YfKsYcg86QPUY54VKWjXKp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-9", "prompt": "What color sign is on the blue door?", "text": "Red.", "answer_id": "CLAXQDGWCSCztirKrDwTQL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-10", "prompt": "What is the object behind 2 pairs of shoes?", "text": "Backpack.", "answer_id": "oJirzvsQRoBxFexsZ9fzYW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-11", "prompt": "How many pairs of shoes is the table behind?", "text": "2.", "answer_id": "5R7Tzq4GEbbWmhFVBKU8Mc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-12", "prompt": "Where is the toilet located?", "text": "Left of the bathtub.", "answer_id": "UCv6JSzjHAM6bPWrmSLVYg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-13", "prompt": "What is the tall brown wooden cabinet called?", "text": "Wardrobe.", "answer_id": "6XXQtmCpfwvkfriM7o84QK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-14", "prompt": "What color curtains are on the right of the window?", "text": "Green.", "answer_id": "Lkkv9ujFXV4vrQXYYHg8BV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-15", "prompt": "What is the chair in front of?", "text": "Desk.", "answer_id": "dMNTF8MydRHyTqYDfgXUDQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-16", "prompt": "A blue and brown chair is in front of a desk with what on it?", "text": "Laptop.", "answer_id": "EqcC8z7VWyn2a6VVS2ER3i", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-17", "prompt": "What color is the wooden nightstand?", "text": "Light brown.", "answer_id": "7smVkfhV99qCvLob9Lv4zX", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-18", "prompt": "What kind of desk is the computer located on?", "text": "Wooden.", "answer_id": "REvzx96gs32bEFbgT9qM3M", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-19", "prompt": "What is on the desk in front of the blue and brown chair?", "text": "Monitor.", "answer_id": "gwiLZWkFm9tMcQXhprAAek", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-20", "prompt": "What is positioned above the toilet and on the left of the sink?", "text": "Mirror.", "answer_id": "B2LRCBbgkXtTEWUodi5CkY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-21", "prompt": "What is above the toilet flush button?", "text": "Toilet paper.", "answer_id": "UFtRYgXSfqcQ3Q4ZctvPCV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-22", "prompt": "What color is the sink?", "text": "White.", "answer_id": "QVPMQKjFhsNfL9DEuxh5qE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-23", "prompt": "What is on the left of the sink?", "text": "Toilet paper.", "answer_id": "gLDti5xSfM2dChsx7vgfeT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-24", "prompt": "What color is the bathtub on the far right of the room?", "text": "White.", "answer_id": "53nnw7cgqCuDnuQv6XnKBP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-25", "prompt": "On what side of the room is a white bathtub with a white shower curtain?", "text": "Right.", "answer_id": "o6vGRsJkMjCDiTMz8CGAfR", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-26", "prompt": "What is on the left of the bathtub?", "text": "Door.", "answer_id": "NNenSDkEARDwzwgXr3dZf7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-27", "prompt": "What color pillow is positioned at the head of a bed?", "text": "Blue.", "answer_id": "4m3AbUHdDW5oxQkWmBXokC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-28", "prompt": "What is underneath the white pillow?", "text": "Bed.", "answer_id": "VK3zrzzfYrHgJGzk5oH6Vt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-29", "prompt": "What is above the toilet to flush the toilet?", "text": "Toilet paper.", "answer_id": "gC6xJzJFaeEP2Frq7Cr7So", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-30", "prompt": "What color is the towel to the right of the toilet?", "text": "Blue.", "answer_id": "9EhXzygVWUHKGDMkKisGvh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-31", "prompt": "What color is the mat beneath the toilet?", "text": "Blue.", "answer_id": "AJpzpLzmrGnusrma3ZsSSe", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-32", "prompt": "What color is the shower curtain?", "text": "White.", "answer_id": "5SpnV7Si8VGz4HxAH8Z78y", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-33", "prompt": "What is hanging in the corner between the cabinets and the wall?", "text": "Curtain.", "answer_id": "dDgvswg7qizV3ndcuhA8sM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-34", "prompt": "Where is the tv located?", "text": "On desk.", "answer_id": "7AinGRWzikt5Jg3jbTPrKF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-35", "prompt": "What is to the left of the sink?", "text": "Door.", "answer_id": "nxK6icqRUVQcvfMx5m5vp5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-36", "prompt": "What part of a white toilet is opened?", "text": "Seat.", "answer_id": "ckYYahXeqMNLyoXMYDMqAJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-37", "prompt": "What is at the foot of the bed with two teirs?", "text": "Backpack.", "answer_id": "2qLTeA972AHH5WKyPuXW7R", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-38", "prompt": "How many teirs are on the table end shelf?", "text": "3.", "answer_id": "mb7WqSNLfesKNPpc8QWwqe", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-39", "prompt": "What color entry door is in front of the toliet?", "text": "Brown.", "answer_id": "FgtQM8Lv7JxAWvMg2HfpWG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-40", "prompt": "Where is the white entry door located?", "text": "To the right of the sink.", "answer_id": "ScaogMvHEaGX4qWvtg47ci", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-41", "prompt": "What is located above the open toilet seat?", "text": "Toilet paper.", "answer_id": "go7dixmG6LuWqVuCT5UAFA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-42", "prompt": "Where is the backpack located?", "text": "On the floor.", "answer_id": "eaxQxgLDMNgNqJwwguZwjr", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-43", "prompt": "What color is the wardrobe in the corner of the room?", "text": "Brown.", "answer_id": "F696WuEPJVtBrfEoMtBBdp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-44", "prompt": "How many doors does the brown wardrobe have?", "text": "3.", "answer_id": "iwC42QmBJqehTskiggmMrH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-45", "prompt": "What color curtains are next to the wardrobe?", "text": "Blue and green.", "answer_id": "C5SXBuYinPrECEtEaAh4jx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-46", "prompt": "To what side of the sink is the white shower curtain located?", "text": "Right.", "answer_id": "HrzWQ3ev2Tp8EmMfawFpE9", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-47", "prompt": "What color is the tv above the night stand?", "text": "Black.", "answer_id": "j5fRecxou7nfjSyu38UoVc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-48", "prompt": "The black tv is hung above what color night stand?", "text": "Brown.", "answer_id": "XePtasEQeT3yEenguPZc6g", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-49", "prompt": "What is suspended on the wall between the tall brown cabinet and the wall to the right of the tv?", "text": "Curtain.", "answer_id": "L72X5TTXQsde2S4CQFCn3d", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-50", "prompt": "What is under the tv on the table?", "text": "Monitor.", "answer_id": "WwDGtjqgrmrXSqL6mePPy7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-51", "prompt": "What color is the bathroom door?", "text": "White.", "answer_id": "EWahVoXqAUEA556yBh7u4e", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-52", "prompt": "What color is the apartment door?", "text": "Brown.", "answer_id": "oXwDDmu4sGDPLpWbdd9XvD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-53", "prompt": "What is the front door to the apartment?", "text": "Brown.", "answer_id": "VhcR8gECu7MgYhqcDVjcZ6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-54", "prompt": "What color is the front door to the apartment?", "text": "White.", "answer_id": "hApcVn8TZ943BqT7m5bbkm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-55", "prompt": "The nightstand is in-between what?", "text": "2 beds.", "answer_id": "B2WHTwzzWieEfgRXSMcftz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-56", "prompt": "What color is the bathtub in the bathroom?", "text": "White.", "answer_id": "43foXyghWYrT5UNsWKvxVc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-57", "prompt": "What is located to the left of the bathtub?", "text": "Door.", "answer_id": "5gbyqZdeuXKCiM77E8B4wS", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-58", "prompt": "Where is the bathtub located?", "text": "Left of the toilet.", "answer_id": "enU3nkhFQjwLegBT2rkpbw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-59", "prompt": "Where is the bathtub located in the bathroom?", "text": "Left of toilet.", "answer_id": "bZpuEK2tT8djWDnAdUuPwq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-60", "prompt": "What is in front of the toilet?", "text": "Shoes.", "answer_id": "Hr44zK7p4vhbzgk76LcaPB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-61", "prompt": "What is on top of the bathtub?", "text": "Towel.", "answer_id": "ctYgYFzD6WSJ8KoDZQfhem", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-62", "prompt": "Where is the bathtub positioned?", "text": "Left of the toilet.", "answer_id": "4RqZRKiJhcGo6Uf8HgajCf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-63", "prompt": "How far from the window curtains is the chair?", "text": "Near.", "answer_id": "5WiXFYzBQzQYybbCTBD5LE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-64", "prompt": "Where is the white bathtub located?", "text": "Left of the toilet.", "answer_id": "9eW7BHLQ5jMRC9fmzdxYmi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-65", "prompt": "What color is the tv above a bed?", "text": "Black.", "answer_id": "cQKDubNbVsnvGkMri7ZdyT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-66", "prompt": "What is the black tv above?", "text": "Above desk.", "answer_id": "XPTW6fdBKDcaKCmSnNHVSn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-67", "prompt": "What type of sink is next to a toilet?", "text": "White porcelain.", "answer_id": "ZEeS2LQZYKBq74kc4UKHfv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-68", "prompt": "What is to the right of the white sink?", "text": "Door.", "answer_id": "Ci2HrwJgjtTa9junxaBUtH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-69", "prompt": "Where is the bed?", "text": "In front of the desk.", "answer_id": "8UqmCsjgAYFArG84StrMkq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-70", "prompt": "What color is the towel between the toilet and the sink?", "text": "Blue.", "answer_id": "dqnAi9p8rwLFM95VZmXhUC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-71", "prompt": "What color chair is next to the tan desk?", "text": "Blue.", "answer_id": "YCDyJpZRnza8huBYyDQctY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-72", "prompt": "What color is the bed in the corner of the room?", "text": "Brown.", "answer_id": "au64ujLiUyVHWn3dZXb7sv", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-73", "prompt": "In what part of the room is the white bed located?", "text": "Center.", "answer_id": "5XH3BAZPEZqRNEHoWBdrJ3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-74", "prompt": "On what side of the bed is the pillow located?", "text": "Right.", "answer_id": "Z72NZ75ZWXdwHSqf6qEmp8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-75", "prompt": "Where is the desk located?", "text": "Right of bed.", "answer_id": "YVA5PsooubzPhGr8TmAns4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-76", "prompt": "What electronic device is sitting atop the desk?", "text": "Laptop.", "answer_id": "2iTxdignHm79fwHZFLVySZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-77", "prompt": "How is the laptop located on top of the desk?", "text": "Laptop is on top of the desk.", "answer_id": "CS7AEmhg68MoazUsYpHR4L", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-78", "prompt": "What is the laptop centered on?", "text": "Desk.", "answer_id": "VQCTJzqrKf3ZsEFUPaWeBJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-79", "prompt": "What is located to the right of the toilet?", "text": "Bathtub.", "answer_id": "ccvCUPmuqJssNjem8uirze", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-80", "prompt": "Where is the curtain located?", "text": "Left of the bed.", "answer_id": "YqQJHv9KcARzDjZkfUugD4", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-81", "prompt": "What color sink is near the shower curtain?", "text": "White.", "answer_id": "nD5Txj83yK4o3CVrTM497Z", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-82", "prompt": "How many legs does the arm chair have?", "text": "4.", "answer_id": "GLZ6CsgdcNwdkfu3PNbEFY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-83", "prompt": "What type of chair has four legs?", "text": "Wooden.", "answer_id": "QRfQT6NvK64bHjD3wTWzJw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-84", "prompt": "Where is the wooden chair with blue cushion placed?", "text": "In front of the bed.", "answer_id": "SmacHmovsCkxNzQc8RhH93", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-85", "prompt": "Where is the toilet flush button by the toilet basin?", "text": "To the right.", "answer_id": "97kDrQ7ELU9m6wWgM6uhgU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-86", "prompt": "What is above the bed?", "text": "Picture.", "answer_id": "9Rw3mYFshdhHbLdJBrvrzC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-87", "prompt": "What color is the main door?", "text": "Blue.", "answer_id": "GX96i6oHLV3Gb2AgHgMhYc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-88", "prompt": "What is in front of the desk?", "text": "Chair.", "answer_id": "4y2th4LxGWBSCJjTwDgqoJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-89", "prompt": "Where has the white door been swung into?", "text": "Bathroom.", "answer_id": "62hFhdvfmGGubSemYZWrgw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-90", "prompt": "What is on the bed?", "text": "Towel.", "answer_id": "ZeQongBr9uRm9iTcocQRMx", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-91", "prompt": "Where is the pillow?", "text": "On bed.", "answer_id": "ZB93GyATdekvQPbqZ4r7hc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-92", "prompt": "How is the blue bath towel hung?", "text": "Hanging.", "answer_id": "aqW7CKHdHLr78WKbE7D8wW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-93", "prompt": "What color is the chair?", "text": "Blue.", "answer_id": "SdkUwEVGYDGGRj9XGhBePq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-94", "prompt": "Where is the blue and brown chair?", "text": "In front of the bed.", "answer_id": "oCEKUzdiffknT7mY3LRwBw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-95", "prompt": "What color sink is attached to the wall of the bathroom?", "text": "White.", "answer_id": "4UXfhDWPiKod4vhZ7RaPYY", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-96", "prompt": "Where is the off-white sink located?", "text": "On the right side of the bathroom vanity.", "answer_id": "kw8khewnMK8n8LTpZ9Bvfp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-97", "prompt": "What color is the entry door?", "text": "Brown.", "answer_id": "MhmNjMDz2y6sjQqM8wALAz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-98", "prompt": "Where is the off-white door located?", "text": "Left of the bathtub.", "answer_id": "Rnion8WfAoNcU3NshXxD8X", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-99", "prompt": "What color is the pillow on the bed?", "text": "White.", "answer_id": "h7MskAejfJMoE92wGGMKZT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-100", "prompt": "Where is the off-white pillow on the bed?", "text": "On the right side.", "answer_id": "N8itTAp4aXoHFQPh9bEpYZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-101", "prompt": "What is above the toilet?", "text": "Mirror.", "answer_id": "4jFexqbZ2WAHxQuqgrNMKt", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-102", "prompt": "Where is the white toilet flush button located?", "text": "To the right of the toilet.", "answer_id": "az92fGcXQfMSWWpkUq4877", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-103", "prompt": "What color laptop sits on top of the desk?", "text": "Black.", "answer_id": "3AigDZKvJVtuYE8DQRLFjN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-104", "prompt": "What is covering the windows?", "text": "Curtains.", "answer_id": "HqYt2F4LegXTdicPxfspRM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-105", "prompt": "What is hanging on the wall to the left of the windows?", "text": "Curtain.", "answer_id": "KnZ4xYYA8aEYczh5R25z64", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-106", "prompt": "What color is the chair cushion?", "text": "Blue.", "answer_id": "Qx2Cz54pPxTFHMjmcdiTvE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-107", "prompt": "What can be seen hanging by the bathtub?", "text": "Towel.", "answer_id": "mfomddCJErYLQaPUKKPT7M", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-108", "prompt": "What color is the surface of the table?", "text": "Brown.", "answer_id": "7sW2FTwacBgjZ4v5nGWkdD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0046-109", "prompt": "How many pairs of shoes can be seen lying in front of the table?", "text": "2.", "answer_id": "nLGt94vePZc2MFDk5k57go", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-0", "prompt": "Where is the laptop located?", "text": "On desk.", "answer_id": "LaXnAHc8DmWb9QEzBQTdhm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-1", "prompt": "Where is the stool located in the corner of the room?", "text": "Next to the piano.", "answer_id": "oEjEgQJ3QEyJgp6H35w2z9", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-2", "prompt": "What is on top of the stool?", "text": "Backpack.", "answer_id": "QuUk3ZBrJyMzfETTBtidVp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-3", "prompt": "The chair has its back to what?", "text": "To the wall.", "answer_id": "Emn2VgdXwAM6oVPxVyFtGz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-4", "prompt": "In what part of the room is the chair next to the desk?", "text": "In the corner.", "answer_id": "MmMPjzageqZ5h2Mzd6khof", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-5", "prompt": "What is on the ottoman?", "text": "Clothes.", "answer_id": "mQTUTUVsEXcrhvS2eWp7g7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-6", "prompt": "What is a box of on the ottoman?", "text": "Backpack.", "answer_id": "2Jg9V9o587Gh69DtaxLgqD", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-7", "prompt": "What type of box is on the ottoman?", "text": "Storage.", "answer_id": "2qpwf4SxDtzVorDmxbCxzJ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-8", "prompt": "What color shelf is next to the window?", "text": "White.", "answer_id": "83GnXxiHpWPaDrq5idj2Fj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-9", "prompt": "What is next to the white shelf in the wall on top of the desk?", "text": "There is a bottle.", "answer_id": "4JiWH72cuHf6YMg9fZDi29", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-10", "prompt": "What color is the shelf on the breaker box?", "text": "Red.", "answer_id": "dxUFs8ALnY9SgNR4eRvUZU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-11", "prompt": "The shelf is up against what to the left of the dark grey breaker box?", "text": "Wall.", "answer_id": "FKsJQWhMQQXHFyUSqRThyu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-12", "prompt": "What is on the brown ottoman in front of the couch?", "text": "Backpack.", "answer_id": "PamatbzfQomXAzf33B7WPN", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-13", "prompt": "The backpack is to the right of a box of what?", "text": "To right of a box of tissues.", "answer_id": "4SRgbBtUALqr3Cw8W4Lju7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-14", "prompt": "What is in front of the shelf?", "text": "Chair.", "answer_id": "hy79rdEF4DZKZzPq46Rpty", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-15", "prompt": "What is the shelf above against the wall?", "text": "Shelf.", "answer_id": "Vpu7rfR9JkKwzc7Hvgp3k6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-16", "prompt": "What is on the left of the desk?", "text": "Chair.", "answer_id": "kexNtSWaq2CKP3DKPrShZA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-17", "prompt": "What is on the left side of the door?", "text": "Window.", "answer_id": "B7daZ926FViy4ipuGWLGsC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-18", "prompt": "What is on the wall near the armchair?", "text": "Window.", "answer_id": "XauDQS7Wj5f9DAURanABg3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-19", "prompt": "What is on the left wall of the house?", "text": "Window.", "answer_id": "6YSdGTHQThFLcMNfNCUFBU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-20", "prompt": "How is the couch sitting to the windows?", "text": "In front of the windows.", "answer_id": "4ZNEnoin6QzoFRugMaaJKG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-21", "prompt": "What color is the printer on the right side of a desk?", "text": "Black.", "answer_id": "DLxJu9Z4it3FgaA3LMChJL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-22", "prompt": "The printer is closest to what on the right?", "text": "Couch.", "answer_id": "AWoZp2k6MJRxZZPNfMAbk3", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-23", "prompt": "What is in front of the desk?", "text": "Chair.", "answer_id": "L4hxty9sPZJjNx3kM3gHcH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-24", "prompt": "Where is the laptop sitting?", "text": "On the desk.", "answer_id": "NvecMKpbAi2svHwmLpqxVj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-25", "prompt": "Where are the two doors located?", "text": "Left and right sides of the room.", "answer_id": "f4pimgeNEuAmTWwAdccTwb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-26", "prompt": "In what part of the room is the brown piano located?", "text": "In the corner.", "answer_id": "VJVoYnVWaLaayFocizMEBV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-27", "prompt": "Where is the red toolbox located?", "text": "On the floor.", "answer_id": "JwCBn3SJGdpoDU2idtXuiZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-28", "prompt": "What color is the piano bench in front of the piano?", "text": "Brown.", "answer_id": "AvzFRKS5XbddiSrAS2sQoL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-29", "prompt": "Where is the brown piano bench located?", "text": "In front of the piano.", "answer_id": "i69GpBKcAy3xTeZxMrweb5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-30", "prompt": "What is the white tissue box sitting between?", "text": "Chair and table.", "answer_id": "B3VUtUscpwtiSnwBSiw5DQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-31", "prompt": "Where is the silver and white desk located?", "text": "In front of the window.", "answer_id": "d6toVx6o8taaMwMiVtbNYZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-32", "prompt": "Where is the brown door located?", "text": "To the left of the piano.", "answer_id": "gWusebv7GsyARZwgUYRLHb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-33", "prompt": "What type of backpack is in front of a couch?", "text": "Black.", "answer_id": "bn2qcfpygfdpMnSxZCFDcb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-34", "prompt": "What is the black backpack in front of?", "text": "Chair.", "answer_id": "mLNZuhFQi4CMoeXFoRkFEB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-35", "prompt": "What is the color of the laptop that is on a desk?", "text": "Black.", "answer_id": "GJnHNnbd8KWL4jMYpGxZch", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-36", "prompt": "Where is the ray laptop located?", "text": "On the table.", "answer_id": "DMMr46QR5twUgVuK9pa8GH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-37", "prompt": "What is the black backpack on?", "text": "Chair.", "answer_id": "jpmDkQTHDkyARtXY5ucMwL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-38", "prompt": "Where is the brown couch located?", "text": "In front of the window.", "answer_id": "2JAuhReLsXKLVcBCbkSPtf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-39", "prompt": "The brown armchair is across from what?", "text": "Couch.", "answer_id": "jqvtNqNVzAv8e5jEU6f7Zb", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-40", "prompt": "What is in front of the brown couch?", "text": "Chair.", "answer_id": "SaKtQ5Z7b9M2Yg3tTMmKcM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-41", "prompt": "What is next to the brown door?", "text": "Window.", "answer_id": "GjfNamKtTobKTNnkYZo2C5", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-42", "prompt": "What is near the brown armchair?", "text": "Table.", "answer_id": "jDfV6ZLjR2YfHAZq8Wkp2Z", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-43", "prompt": "What is next to the toolbox?", "text": "Chair.", "answer_id": "hDbLRWsBKNYKrv9nwqY8J8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-44", "prompt": "The silver laptop is across from what?", "text": "Couch.", "answer_id": "gLKVTWk2TteHu4FwVqB7GM", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-45", "prompt": "What is in front of the brown door?", "text": "Chair.", "answer_id": "mrcM5ar2PZG8mUt6wTGsmQ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-46", "prompt": "What is the backpack on top of?", "text": "Chair.", "answer_id": "EfeBaem4hRE25KzMcYLccK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-47", "prompt": "What is next to the brown piano?", "text": "Chair.", "answer_id": "RHfHfriUF3jJmvW3CVjWgz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-48", "prompt": "What is next to the brown couch?", "text": "Chair.", "answer_id": "iBy6TFNxzzckUmeaE6ktwa", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-49", "prompt": "What color is the armchair next to the laptop?", "text": "Brown.", "answer_id": "ZSyAdPmbwy2dctXQBCTW5H", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-50", "prompt": "What is next to the tool boxes?", "text": "Chair.", "answer_id": "kGZSE3Z8PW2hy5GSHVBBfK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-51", "prompt": "What is next to the shelf?", "text": "Chair.", "answer_id": "ndPjhtSpVNKv3LGEr78np8", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-52", "prompt": "What color toolbox is in front of a red toolbox?", "text": "Green.", "answer_id": "RZevdgjpbtPkauLstgE526", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-53", "prompt": "What color is the toolbox behind the blue toolbox?", "text": "Red.", "answer_id": "i58yzpB5PiCDtKQMKnbEvU", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-54", "prompt": "What is the armchair facing?", "text": "Couch.", "answer_id": "bZYxLfwo8SpVFWG8edQErT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-55", "prompt": "What is located to the right of the couch?", "text": "Chair.", "answer_id": "PHJ2vbGRDGQeYE958N4Yrd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-56", "prompt": "What color is the armchair?", "text": "Brown.", "answer_id": "YaaERyEAnhBonGBYCTtbk6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-57", "prompt": "What is located on the floor to the left of the piano?", "text": "Backpack.", "answer_id": "FrrqsN48qFUgnhKRhCV5An", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-58", "prompt": "How many boxes does the stool have on top of it?", "text": "1.", "answer_id": "oDD5erHMAtPY3wC8Pqw4Gy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-59", "prompt": "The backpack is sitting on top of what?", "text": "Chair.", "answer_id": "W6NQxzqUWkCsXzUs963tmZ", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-60", "prompt": "The backpack is to what side of the piano?", "text": "Left.", "answer_id": "ANGhkp7JWXRuTxq4PRotsg", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-61", "prompt": "What is in front of the door?", "text": "Chair.", "answer_id": "29D3Y6FifUBmwi4onh3NDp", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-62", "prompt": "What is located on top of the ottoman?", "text": "Backpack.", "answer_id": "n5TM4wVHisA4ynZuu4T7VW", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-63", "prompt": "What is the tissue box sitting between on top of the ottoman?", "text": "The tissue box is sitting between the ottoman and the chair.", "answer_id": "EvHtTEkm34PP2aCLhJouhA", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-64", "prompt": "Where is the grey printer located?", "text": "On the desk.", "answer_id": "VZzFsHCEfxj8PBPCFnjiND", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-65", "prompt": "What color is the piano to the right of the double doors?", "text": "Black.", "answer_id": "EZXvKCpegQSGf2QJr2mmHw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-66", "prompt": "What is on the left of the piano?", "text": "Chair.", "answer_id": "aUw49xPt2eLQYVKfe9MwED", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-67", "prompt": "What color leather chair is in front of the grey desk?", "text": "Brown.", "answer_id": "WAyVRwEB5B485mcWT8cczF", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-68", "prompt": "What is sitting in front of the desk?", "text": "Chair.", "answer_id": "XLkufEupdRWzq2pMicAiPm", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-69", "prompt": "What is in front of the glass double doors?", "text": "Chair.", "answer_id": "BArorQRqJtw9S7xoEX4CWB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-70", "prompt": "The floral printed chair is to the left of what color desk?", "text": "Brown.", "answer_id": "YJAWhJ2TswJiXmzR4Ron2x", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-71", "prompt": "What is the black knapsack resting on?", "text": "Chair.", "answer_id": "guq4CtMykiwfKTnhiGVNag", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-72", "prompt": "Where is the sofa located?", "text": "In the center of the room.", "answer_id": "gJpVpRjQihiSKcTUjEoi3S", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-73", "prompt": "What color piano is in the corner of the room?", "text": "Black.", "answer_id": "XqrAPAZemo2XpFDhi4zuzK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-74", "prompt": "What does the black knapsack rest on?", "text": "Couch.", "answer_id": "NoypqpE45cyausBDnjwJh6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-75", "prompt": "What is on the left of the black knapsack?", "text": "Chair.", "answer_id": "eANyWyp6pgNrVq5vi3zSk2", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-76", "prompt": "What kind of doors are in front of the knapsack?", "text": "Glass.", "answer_id": "iJatx47fCfCEgsG6SfMbcn", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-77", "prompt": "What color is the laptop computer on the left edge of a messy desk?", "text": "Black.", "answer_id": "nyp6SDq3KsUTYsqw73SZ8N", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-78", "prompt": "What is the laptop sitting on?", "text": "Desk.", "answer_id": "DYsRsVBJN2P27WiyeoDVET", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-79", "prompt": "What is sitting near the right side of the couch?", "text": "Chair.", "answer_id": "kaLHWA9XWMmuAA9LsWGEKL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-80", "prompt": "What color is the piano on the left of the ottomon?", "text": "Black.", "answer_id": "DkUF87AHiDLnGDhG5gNSuy", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-81", "prompt": "What sits on the right edge of a brown leather ottoman?", "text": "Backpack.", "answer_id": "Ecz7aCCufEcG2pX5EyMszh", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-82", "prompt": "Along with a black backsack, what is on the right edge of the brown leather ottoman?", "text": "Backpack.", "answer_id": "CdTRFcfdYDBed3EiWWBuuT", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-83", "prompt": "What kind of table is underneath the black backsack?", "text": "End table.", "answer_id": "Qjod2Ncx9wREkafFGkn2Kq", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-84", "prompt": "How many doors are in the back?", "text": "1.", "answer_id": "CZUJjDCmPPqacPGYtFPmeL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-85", "prompt": "What is to the right of the chair?", "text": "Window.", "answer_id": "Xb645LqgYSQvyMSSxc5z6n", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-86", "prompt": "What is to the left of a desk?", "text": "Chair.", "answer_id": "YmtUSgXiSEB6FkX426vAfL", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-87", "prompt": "What type of desk sits just ahead of a wall that has glass doors in it?", "text": "Wooden.", "answer_id": "Ac333zvmERQbs4KMqvCBc9", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-88", "prompt": "What is space between the desk and the wall?", "text": "Small.", "answer_id": "QJW35zgtEXKvQmnX3cSEZs", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-89", "prompt": "What does the brown leather ottoman sit in front of?", "text": "Couch.", "answer_id": "erpgsmf35VtysHAswfoeXP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-90", "prompt": "What sits in front of a matching sofa to its right?", "text": "Chair.", "answer_id": "bAvQBV7AU35GLG9dLg8CNw", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-91", "prompt": "What is in a corner of the ottomon?", "text": "Chair.", "answer_id": "JhnHA4XRYnPbXR5yHzKqJH", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-92", "prompt": "What is in front of the piano?", "text": "Chair.", "answer_id": "3ZuKkSoVk5usD6fzEsW9LP", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-93", "prompt": "What is the printer sitting on?", "text": "Table.", "answer_id": "U2Udk84GMCzyb3GSvDKemG", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-94", "prompt": "What is to the right of the toobox?", "text": "Chair.", "answer_id": "SfPAQoMtpqQxsWyP5meXor", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-95", "prompt": "What is the toolbox against?", "text": "Wall.", "answer_id": "6xAj9AJuMdmJqr79VTjAT9", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-96", "prompt": "Where is the brown ottoman located?", "text": "In front of the couch.", "answer_id": "P5erGCi2utDkdzFfxZ5wtd", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-97", "prompt": "What is underneath the brown stool?", "text": "Backpack.", "answer_id": "Rk6ruHMrZaHBmcfx2rKb28", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-98", "prompt": "What is next to the laptop?", "text": "Chair.", "answer_id": "NaKkebzDYtgkjmFA4wp4ff", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-99", "prompt": "The laptop is on a desk facing what?", "text": "Couch.", "answer_id": "jhswr29TBmU4NKrUHWBeYC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-100", "prompt": "What is the blue toolbox in front of?", "text": "Chair.", "answer_id": "oN556EXfJJLD2VXBjYMnXu", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-101", "prompt": "What is the tool box near?", "text": "Near the window.", "answer_id": "mJaXdUdRriyQedkyRdSP2Z", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-102", "prompt": "What is in the corner of the room to the right of the door?", "text": "Piano.", "answer_id": "Ewn38ZnGAuLysyCwgdFMUc", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-103", "prompt": "What color is the tool boxes to the left of the piano?", "text": "Red.", "answer_id": "9ckuqurbxaoWCNZNabHoPC", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-104", "prompt": "What color is the tool box to the left of the piano?", "text": "Black.", "answer_id": "E5xm5Qmvqx9V7rFLqFLGVz", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-105", "prompt": "Where is the piano located in the corner of the room?", "text": "To the left of the window.", "answer_id": "ZyxNTBtyemsNkNYqvAMpDE", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-106", "prompt": "What color toolbox is to the right of the piano?", "text": "Green.", "answer_id": "aZ7K8gny5Jh58oUBxKXKhK", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-107", "prompt": "The piano is to the right of a blue toolbox and what else on the floor?", "text": "Backpack.", "answer_id": "EotMpWVTmwengTgzsfMMcV", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-108", "prompt": "What color leather reclining chair is in front of a grey desk?", "text": "Brown.", "answer_id": "2EYermVW3yuwtZo8HBzngB", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-109", "prompt": "What is in front of the arm chair?", "text": "Table.", "answer_id": "5edVuqSVLiyC8ofFK3JoD7", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-110", "prompt": "What color is the desk in front of a brown chair?", "text": "Brown.", "answer_id": "Vi6fXQneYshCaNCRKeT9Xf", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-111", "prompt": "How many laptops are on top of the desk?", "text": "1.", "answer_id": "DXpRKKLERPCKxdexm73CX6", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-112", "prompt": "The rectangular tissue box is on what?", "text": "Table.", "answer_id": "dUW7Z9Anz6pEUcmKomP9os", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-113", "prompt": "What is next to the brown door on the left?", "text": "Window.", "answer_id": "QsvAipFWiWmf5KidUqChCj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-114", "prompt": "The brown door is to what side of the window with white curtain?", "text": "Right.", "answer_id": "mXQTxLxKSRNqvZFxLGEmCi", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-115", "prompt": "What is next to the black backpack?", "text": "Chair.", "answer_id": "SR6TBePK8BDDsHzTyCpSVk", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-116", "prompt": "Where is the printer located?", "text": "On the desk.", "answer_id": "LgGMEa27dyoA2KxgWAL7Zj", "model_id": "llava-3d-7b", "metadata": {}}
+{"question_id": "val-scene0050-117", "prompt": "Where is the chair with arms located?", "text": "In front of the window.", "answer_id": "axhXa3KJWfVJjsYm75mFRV", "model_id": "llava-3d-7b", "metadata": {}}

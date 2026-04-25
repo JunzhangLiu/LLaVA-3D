@@ -304,7 +304,8 @@ def load_pretrained_model(model_path, model_base, model_name, torch_dtype=torch.
         if model.config.mm_vision_tower is not None:
             vision_tower = model.get_vision_tower()
             if not vision_tower.is_loaded:
-                vision_tower.load_model(device_map=device_map)
+                # Load on a single device to avoid device mismatch (e.g. weight on cuda:0, input on cuda:1)
+                vision_tower.load_model(device_map=None)
             vision_tower.to(device=device, dtype=torch_dtype)
             image_processor = vision_tower.image_processor
             processor['image'] = image_processor

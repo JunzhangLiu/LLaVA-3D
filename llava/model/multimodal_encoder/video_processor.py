@@ -71,6 +71,109 @@ class RGBDVideoProcessor(ProcessorMixin):
             valid_video_poses.append(video_pose)
         return valid_video_poses
 
+    @staticmethod
+    def _parse_scannet_scene_metadata(scene_dir):
+        """Read ScanNet `<scene_id>/<scene_id>.txt` for axis alignment and depth intrinsics."""
+        scene_dir = os.path.abspath(scene_dir)
+        scene_id = os.path.basename(scene_dir)
+        meta_path = os.path.join(scene_dir, f"{scene_id}.txt")
+        if not os.path.isfile(meta_path):
+            return None, None
+        axis_align = None
+        fx_d = fy_d = mx_d = my_d = None
+        with open(meta_path, "r", encoding="utf-8", errors="replace") as f:
+            for line in f:
+                line = line.strip()
+                if not line or "=" not in line:
+                    continue
+                key, _, rest = line.partition("=")
+                key = key.strip()
+                rest = rest.strip()
+                if key == "axisAlignment":
+                    vals = [float(x) for x in rest.split()]
+                    if len(vals) == 16:
+                        axis_align = np.array(vals, dtype=np.float64).reshape(4, 4)
+                elif key == "fx_depth":
+                    fx_d = float(rest)
+                elif key == "fy_depth":
+                    fy_d = float(rest)
+                elif key == "mx_depth":
+                    mx_d = float(rest)
+                elif key == "my_depth":
+                    my_d = float(rest)
+        if axis_align is None:
+            axis_align = np.eye(4, dtype=np.float64)
+        if None in (fx_d, fy_d, mx_d, my_d):
+            return axis_align, None
+        intrinsic = np.eye(4, dtype=np.float64)
+        intrinsic[0, 0] = fx_d
+        intrinsic[1, 1] = fy_d
+        intrinsic[0, 2] = mx_d
+        intrinsic[1, 2] = my_d
+        return axis_align, intrinsic
+
+    def subsample_scannet_sens_video(self, video):
+        """
+        ScanNet decoded from `.sens` into `<scene>/video/{idx}.jpg`, `{idx}.png`, `{idx}.txt` (poses).
+        Scene metadata from `<scene>/<scene_id>.txt` supplies axis alignment + depth intrinsics.
+        """
+        scene_dir = os.path.abspath(video)
+        sens_dir = os.path.join(scene_dir, "video")
+        if not os.path.isdir(sens_dir):
+            raise FileNotFoundError(f"Missing video dir: {sens_dir}")
+        jpgs = list(Path(sens_dir).glob("*.jpg"))
+        jpgs.sort(key=lambda p: int(p.stem))
+        jpgs = [str(p) for p in jpgs]
+        if not jpgs:
+            raise ValueError(f"No JPG frames under {sens_dir}")
+
+        pose_candidates = []
+        for img_path in jpgs:
+            pose_path = str(Path(img_path).with_suffix(".txt"))
+            depth_path = str(Path(img_path).with_suffix(".png"))
+            if os.path.isfile(pose_path) and os.path.isfile(depth_path):
+                pose_candidates.append(pose_path)
+        valid_pose_paths = set(self.valid_pose(pose_candidates))
+        valid_images = []
+        valid_depths = []
+        for img_path in jpgs:
+            pose_path = str(Path(img_path).with_suffix(".txt"))
+            if pose_path not in valid_pose_paths:
+                continue
+            valid_images.append(img_path)
+            valid_depths.append(str(Path(img_path).with_suffix(".png")))
+
+        if not valid_images:
+            raise FileNotFoundError(
+                f"No valid RGB-D-pose triplets under {sens_dir}. "
+                "Re-run extract_sens_data.py on this scene to export poses (*.txt next to *.jpg)."
+            )
+
+        sample_factor = max(len(valid_images) // self.num_frames, 1)
+        start_point = 0
+        sample_ids = [
+            (start_point + i * sample_factor) % len(valid_images) for i in range(self.num_frames)
+        ]
+        sample_images = [valid_images[i] for i in sample_ids]
+        sample_depths = [valid_depths[i] for i in sample_ids]
+        sample_pose_paths = [str(Path(p).with_suffix(".txt")) for p in sample_images]
+
+        axis_align, depth_intrinsic = self._parse_scannet_scene_metadata(scene_dir)
+        if depth_intrinsic is None:
+            raise FileNotFoundError(
+                f"Could not parse depth intrinsics from {os.path.join(scene_dir, os.path.basename(scene_dir) + '.txt')}"
+            )
+
+        video_info = dict()
+        video_info["dataset"] = "scannet"
+        video_info["sample_frame_num"] = len(sample_images)
+        video_info["sample_image_files"] = sample_images
+        video_info["sample_depth_image_files"] = sample_depths
+        video_info["sample_pose_files"] = sample_pose_paths
+        video_info["depth_intrinsic_file"] = depth_intrinsic
+        video_info["intrinsic_file"] = depth_intrinsic.copy()
+        video_info["axis_align_matrix_file"] = axis_align
+        return video_info
 
     def inpaint_depth(self, depth):
         """
@@ -376,6 +479,11 @@ class RGBDVideoProcessor(ProcessorMixin):
                 raise NotImplementedError
         elif 'openscan' in video:
             video_info = self.extract_openscan_video(video)
+        elif os.path.isdir(os.path.join(video, "video")) and list(Path(video, "video").glob("*.jpg")):
+            if mode == 'random':
+                video_info = self.subsample_scannet_sens_video(video)
+            else:
+                raise NotImplementedError
         else:
             video_info = self.extract_embodiedscan_video(video)
 
