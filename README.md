@@ -1,11 +1,74 @@
-This fork is used for our project on COMP5422 Deep 2D & 3D Visual Scene Understanding (HKUST, Prof. Dan Xu).
+# COMP5422 Project — Scaling LLaVA-3D for Large 3D Scenes
 
-Team members:
-- WU, Yuyao
-- CHAN, Nga Teng
-- LIU, Junzhang
-- Wong Wei Ming
+**Course:** COMP5422 Deep 2D & 3D Visual Scene Understanding, HKUST (Prof. Dan Xu)  
+**Team:** WU Yuyao · CHAN Nga Teng · LIU Junzhang · WONG Wei Ming
 
+This is a fork of [LLaVA-3D](https://github.com/ZCMax/LLaVA-3D) extended with token compression strategies to improve scalability on large 3D scenes. The original model is kept frozen — all compression is inserted as a lightweight plug-in with no retraining.
+
+## Methods
+
+| # | Method | Owner | Status |
+|---|---|---|---|
+| 1 | Attention-Score Pruning | LIU Junzhang | Done |
+| 2 | ForestPrune | — | Exploring |
+| 3 | Spatial K-Means Clustering | WONG Wei Ming | Done (ablation pending) |
+| 4 | Hierarchical Scene Representations | — | Not started |
+| 5 | Q-Former / Learned Token Compression | WU Yuyao | In progress |
+
+## Setup
+
+```bash
+git clone --recurse-submodules git@github.com:Alvin0523/comp5422_3d.git
+cd comp5422_3d/LLaVA-3D
+pixi install
+```
+
+## Run Commands
+
+```bash
+# Baseline (original voxel pooling)
+python llava/eval/model_scanqa.py \
+  --model-path ChaimZhu/LLaVA-3D-7B \
+  --video-folder /path/to/scannet \
+  --question-file playground/data/annotations/ScanQA_v1.0_val.json \
+  --answers-file results/scanqa_baseline.json \
+  --max-scene-index 59 --skip-missing-video
+
+# Method 1 — Attention pruning
+python llava/eval/model_scanqa.py ... \
+  --prune_layer_ratio 5:0.05 8:0.1 14:0.2
+
+# Method 3 — K-Means K=512
+python llava/eval/model_scanqa.py ... \
+  --num-clusters 512
+
+# Large-scene stress test (3 scenes concatenated)
+python llava/eval/model_scanqa.py ... \
+  --extra-scenes 2 --extra-scene-translation 50
+
+# Score any results file
+python llava/eval/score_scanqa.py results/scanqa_baseline.json
+```
+
+## Results (ScanQA val, first 60 scenes)
+
+| Method | Tokens | Raw EM@1 | Refined EM@1 |
+|---|---|---|---|
+| Baseline — single scene | ~3096 | 28.47% | 46.17% |
+| Baseline — 3 scenes concat | ~9288 | 26.70% | 43.07% |
+| Method 1 — Attn pruning | ~3096 | 28.74% | 44.89% |
+| Method 3 — K-Means K=512 (smoke test) | 512 | 34.52%* | 48.81%* |
+| Method 3 — K=512 full run | TBD | TBD | TBD |
+
+*84-question smoke test only — full run pending on ASPIRE2A.
+
+## Docs
+
+- `docs/proposal.md` — full design doc (all methods, datasets, evaluation metrics, timeline)
+- `docs/method3_report.md` — Method 3 detailed report (algorithm, code walkthrough, ablation plan)
+- `demo/README.md` — how to run smoke tests on the 3 local demo scenes
+
+---
 
 <br>
 <p align="center">

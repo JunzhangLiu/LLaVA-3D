@@ -1,0 +1,84 @@
+{"question_id": "val-scene0356-0", "prompt": "What is at the end of the bed?", "text": "Desk.", "answer_id": "2JPoKrXccsMrdZ6FM4apPV", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-1", "prompt": "What is the recycling bin sitting on?", "text": "Desk.", "answer_id": "RaKVwKVtVtDE7iMSmR2m8X", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-2", "prompt": "What is above the recycling bin?", "text": "Shelf.", "answer_id": "bUDGePusenmPLoXxNKkQ4d", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-3", "prompt": "What color plastic basket is placed between two other baskets?", "text": "Blue.", "answer_id": "PYWSGtNuBf7X7MSYaJ7LXT", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-4", "prompt": "What color basket is placed on the right to another basket?", "text": "Blue.", "answer_id": "PjBCsDvnp2jA8cXvvdDiyp", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-5", "prompt": "Where is the green basket located?", "text": "On desk.", "answer_id": "bKkBji4d5ZQrkByQ8VFjjt", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-6", "prompt": "What color is the cabinet?", "text": "Brown.", "answer_id": "D2fseQBhxc5A4F4hTF386t", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-7", "prompt": "Where is the light brown wooden cabinet located?", "text": "Under the window.", "answer_id": "PVUmU9ZmQXqG6qCZesiqzk", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-8", "prompt": "What color is the wooden door?", "text": "Brown.", "answer_id": "64mxHCnH3Se7ie2WsFm6vB", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-9", "prompt": "What color is the work chair?", "text": "Black.", "answer_id": "jQD4qSZdAZJDLvtJfdFEaM", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-10", "prompt": "What is behind the black work chair in a small bedroom?", "text": "Desk.", "answer_id": "jiPf3frvFCJBws5B72RyqR", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-11", "prompt": "What color cabinet is near the bed?", "text": "Brown.", "answer_id": "aDySbDmFqTjzzbNDgU7dez", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-12", "prompt": "What is near the door?", "text": "Dresser.", "answer_id": "2zbfCQiyFfm3Aag9WLFxRW", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-13", "prompt": "What color is the storage tote?", "text": "Blue.", "answer_id": "MEvupjndodSdcXqzxRQHxz", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-14", "prompt": "Where is the left tote from?", "text": "The left tote is from the desk.", "answer_id": "VkB5tR5jKU5mcTW39UQBfH", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-15", "prompt": "What type of window is on the left side of the bed?", "text": "Rectangular.", "answer_id": "HgPnUFiXWgkeECWX5qvDtm", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-16", "prompt": "Where is the window on the left side?", "text": "Above the bed.", "answer_id": "cc4r68R9Tx9VcTrRtKTwGn", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-17", "prompt": "What color is the adjustable desk chair?", "text": "Black.", "answer_id": "nBsdqDtFDQHXVGkrBTkkau", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-18", "prompt": "The black adjustable desk chair is pushed up under the desk table that is against what from the left side of the bed?", "text": "Against the wall.", "answer_id": "jykhsvVpahduHX8r8Cq9dJ", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-19", "prompt": "What kind of storage dresser is in the corner of the room below the telephone?", "text": "Wooden.", "answer_id": "ZasLjNYRNYgdHVhkdoqhVg", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-20", "prompt": "Where is the small wooden storage dresser located?", "text": "To the right of the door.", "answer_id": "ahvJpUd3hGdRV4CbGmiTH4", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-21", "prompt": "What color is the bed?", "text": "Blue.", "answer_id": "7ZyUYBVoBB7EjnGuq7Mdec", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-22", "prompt": "Where is the bed located?", "text": "In the center of the room.", "answer_id": "jaPYA47paSMEyrDCaw2g39", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-23", "prompt": "What color is the office chair?", "text": "Black.", "answer_id": "JD63qchmmF2wKRATMyDBuF", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-24", "prompt": "Where is the black office chair located?", "text": "In front of the desk.", "answer_id": "bdqogUZKTkNyLUThWohZju", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-25", "prompt": "What shape is the brownd door?", "text": "Rectangular.", "answer_id": "VS6wA7S28RMAnXcHnpx8JY", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-26", "prompt": "What is next to the rectangular brownd door?", "text": "Desk.", "answer_id": "T6AMScn5RQEswhRssCxPtd", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-27", "prompt": "Where is the rectangular beige dresser located?", "text": "To right of door.", "answer_id": "f7Wx6ESqboXPVH7BHR6nak", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-28", "prompt": "What is on the desk next to a dark office chair?", "text": "There is a blue recycling bin.", "answer_id": "H78gPMeyLttcPBZx3eDyw2", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-29", "prompt": "What shape is the brown desk?", "text": "Rectangular.", "answer_id": "NrFo3S3M6ScCkXkpzR6PPG", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-30", "prompt": "What color is the radiator?", "text": "White.", "answer_id": "f96FqnzKEy2uETDK5kAbGu", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-31", "prompt": "What color is the chair?", "text": "Black.", "answer_id": "Wkqt9eW73paR5J4mYwonec", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-32", "prompt": "Where is the chair located?", "text": "In front of desk.", "answer_id": "RfYBD22eKrgszWa3r6AruA", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-33", "prompt": "Where is the window above the bed?", "text": "Above the bed.", "answer_id": "CeHsNtdiFNzUBj5z7sN3DN", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-34", "prompt": "In what corner of the window is the desk located?", "text": "Right corner.", "answer_id": "hAHnnrgij2Y4YcvqYUHwQL", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-35", "prompt": "The bed is to the right of what?", "text": "Desk.", "answer_id": "VGxF65U5E86nMMKmyZoPRC", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-36", "prompt": "How does a door sit to the right of a wooden cabinet?", "text": "The door is to the right of the wooden cabinet.", "answer_id": "KjPYGnRRi6wkcbPZi76peX", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-37", "prompt": "To the left of a door is what?", "text": "Wardrobe cabinet.", "answer_id": "59QRqN5zt3JvzJRzox5L2L", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-38", "prompt": "What is at the head of a bed?", "text": "Window.", "answer_id": "79Et8ad9FWMNZHpo9ouyvm", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-39", "prompt": "How many drawers are in a wooden cabinet?", "text": "3.", "answer_id": "55iffneA2CoB9pTV8kY3aS", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-40", "prompt": "To the left of a wooden cabinet is a door that is what?", "text": "Closed.", "answer_id": "a3eEzenVbtgbNyaEtnxVzJ", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-41", "prompt": "What color is the door?", "text": "Brown.", "answer_id": "5QeG7hkvDzeMeDpD9Pz6Uj", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-42", "prompt": "What\u2019s to the right of bed?", "text": "Door.", "answer_id": "FBSZBcb2PyAHRHYvroQMs8", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-43", "prompt": "What is in front of the desk?", "text": "Chair.", "answer_id": "hDqsqusXgJT8YwU6F7xunj", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-44", "prompt": "Where is the compost bin closest to the window?", "text": "The compost bin is closest to the window on the left side of the desk.", "answer_id": "RN3E3CPwqQipzhCeyhd3tS", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-45", "prompt": "What is in the back corner of the room?", "text": "Desk.", "answer_id": "Bnqn6XhZNuNhRp9xQ7tUPW", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-46", "prompt": "What color is the door in the back middle of the room?", "text": "Brown.", "answer_id": "4SvYejg98QF9hYVbdxD5x7", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-47", "prompt": "What shape is the dark bed?", "text": "Rectangular.", "answer_id": "mnJQzhU8PwH464BCQoBFTq", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-48", "prompt": "Where is the bed next to a cabinet?", "text": "Next to the cabinet.", "answer_id": "7tjV9LHnB8ifvdCjpVhG6Z", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-49", "prompt": "What shape is the door next to a cabinet?", "text": "Rectangular.", "answer_id": "VgrXGgESYjMJ4e3PSUEkct", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-50", "prompt": "The rectangular door is next to what?", "text": "Next to a bed.", "answer_id": "H2ekKcypovBynDC8Ktg2qZ", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-51", "prompt": "What is sitting at table on desk?", "text": "Chair.", "answer_id": "VkbmRFRvxesBNXKz9M7b92", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-52", "prompt": "What color is recycling bin on the desk?", "text": "Blue.", "answer_id": "2AGXJDQHQmBQveuyP4DBW3", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-53", "prompt": "What does it have on the desk?", "text": "Recycling bin.", "answer_id": "m5jFwUdeSefEwfxswz6pWJ", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-54", "prompt": "What is it in the corner?", "text": "Bed.", "answer_id": "VqqscKRk4cmozDdASNbDGS", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-55", "prompt": "Where is the main door located?", "text": "To the right of the bed.", "answer_id": "CKUqEnsh72CRzq97tMd2GV", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-56", "prompt": "What color is the door to the left of the main door?", "text": "Brown.", "answer_id": "hCjfZ95gWJMLShURbzokDK", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-57", "prompt": "What is the color of the bed's mattress?", "text": "Blue.", "answer_id": "RXaETEpdvbcTmv8QPSrgec", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-58", "prompt": "On what side of the main door is the closet located?", "text": "Right.", "answer_id": "9tz2ZmxRmvTaZgisNyRJbK", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-59", "prompt": "What is the size of the bed?", "text": "Moderate.", "answer_id": "PZgvTJh6VPL3f3S3K4CP7s", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-60", "prompt": "What shape is the brown shelf on a table and next to a window?", "text": "Rectangular.", "answer_id": "JFH6NSq7ftgTEAjvWotdyZ", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-61", "prompt": "What shape is the brown dresser?", "text": "Rectangular.", "answer_id": "M589m2rwfCkrFidx6Wcb87", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-62", "prompt": "What shape is the green compost bin?", "text": "Rectangular.", "answer_id": "YtwtaT7nuNmgWsrTTyHeex", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-63", "prompt": "What shape is the radiator on the wall next to a bed?", "text": "Rectangular.", "answer_id": "j6WqreimD2buhE95SvFXca", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-64", "prompt": "What is the middle bin on top of a table?", "text": "Recycling bin.", "answer_id": "bUGcQuvAnRdDMNnK2x3gqE", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-65", "prompt": "What is the trash bin made of on top of the table?", "text": "Plastic.", "answer_id": "UhsAUgdAXtfVJ7YvoH9sun", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-66", "prompt": "What color is the radiator in front of the bed?", "text": "White.", "answer_id": "UVidyJHBc5T3oryHFXJgTj", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-67", "prompt": "Where is the recycling bin located?", "text": "On desk.", "answer_id": "b6ReXeFY2MXqs9AjuRx4D8", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-68", "prompt": "What color is the door in front of the dresser?", "text": "Brown.", "answer_id": "nwn2ddNnibRcb4RLmDPBRc", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-69", "prompt": "Where is the bin on a desk across from a bed?", "text": "On desk.", "answer_id": "EndLJqK4izg6cBus9DgQ4M", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-70", "prompt": "Where is the radiator affixed?", "text": "Wall.", "answer_id": "2qf9AXKoKxPJFCZgEzQEJu", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-71", "prompt": "Where is the radiator located?", "text": "Below the window.", "answer_id": "4yayUL8jN7KfskBTyonTLu", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-72", "prompt": "Where does the shelf sit?", "text": "On the floor.", "answer_id": "jU4V9C68jWPdT3zxbXba8q", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-73", "prompt": "Where does the trash bin sit?", "text": "On desk.", "answer_id": "jgzneA73ns9i5pRACTjSsv", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-74", "prompt": "What color is the trash bin?", "text": "Blue.", "answer_id": "ajZKadWrrjsMmbhw2zaESK", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-75", "prompt": "Where is the trash bin located?", "text": "On desk.", "answer_id": "3M4iznZFQgssfNratLdmKi", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-76", "prompt": "What color is the door to the right of the bed?", "text": "Brown.", "answer_id": "T9LKktvbe5zn9rvZwg2x5z", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-77", "prompt": "The door is to the left of the dresser and what other object?", "text": "To the left of the bed.", "answer_id": "DbX77tsmStKLwC4eWaeABC", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-78", "prompt": "What shape is the window next to the bed?", "text": "Rectangular.", "answer_id": "jR96fLELsbdwokRqshWn6D", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-79", "prompt": "What piece of furniture is closest to the window?", "text": "Bed.", "answer_id": "oYbgW9z52nqDLkmtHVYCbL", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-80", "prompt": "What shape is the window on the bed?", "text": "Rectangular.", "answer_id": "R7YjL8WUuoDVgXiQQMfD69", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-81", "prompt": "On what side of the bed is the rectangular window located?", "text": "Left.", "answer_id": "mva3SkR2ZPxgRMjHQisQyC", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-82", "prompt": "What color is the mattress on the rectangular bed?", "text": "Blue.", "answer_id": "2zhxxXEyZyCnao5vsKbPyU", "model_id": "LLaVA-3D-7B", "metadata": {}}
+{"question_id": "val-scene0356-83", "prompt": "Where is the bed with a blue mattress located?", "text": "In the corner of the room.", "answer_id": "5LXSqMqU8ewyLBimEGYryB", "model_id": "LLaVA-3D-7B", "metadata": {}}

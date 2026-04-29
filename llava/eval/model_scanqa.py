@@ -2,6 +2,7 @@ import argparse
 import torch
 import os
 import json
+import random
 from tqdm import tqdm
 import shortuuid
 
@@ -31,12 +32,21 @@ def eval_model(args):
     disable_torch_init()
     model_path = os.path.expanduser(args.model_path)
     model_name = get_model_name_from_path(model_path)
-    tokenizer, model, processor, context_len = load_pretrained_model(model_path, args.model_base, model_name)
+    tokenizer, model, processor, context_len = load_pretrained_model(
+        model_path, args.model_base, model_name,
+        num_clusters=args.num_clusters,
+    )
 
-    # questions = [json.loads(q) for q in open(os.path.expanduser(args.question_file), "r")]
     with open(args.question_file, 'r') as file:
-        questions = json.load(file)
-    questions = get_chunk(questions, args.num_chunks, args.chunk_idx)
+        all_questions = json.load(file)
+
+    # Optionally restrict to the first N unique scenes (for partial-dataset runs)
+    if args.max_scene_index is not None:
+        unique_scenes = sorted(set(q["video"] for q in all_questions))[:args.max_scene_index + 1]
+        scene_set = set(unique_scenes)
+        all_questions = [q for q in all_questions if q["video"] in scene_set]
+
+    questions = get_chunk(all_questions, args.num_chunks, args.chunk_idx)
     answers_file = os.path.expanduser(args.answers_file)
     os.makedirs(os.path.dirname(answers_file), exist_ok=True)
     ans_file = open(answers_file, "w")
@@ -58,18 +68,42 @@ def eval_model(args):
 
         input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).cuda()
 
-        videos_dict = process_videos(
-            video_path,
-            processor['video'],
-            mode='random',
-            device=model.device,
-            text=cur_prompt
-        )
+        try:
+            videos_dict = process_videos(
+                video_path,
+                processor['video'],
+                mode='random',
+                device=model.device,
+                text=cur_prompt
+            )
+        except Exception as e:
+            if args.skip_missing_video:
+                continue
+            raise
 
-        images_tensor = videos_dict['images'].to(model.device, dtype=torch.bfloat16)
-        depths_tensor = videos_dict['depths'].to(model.device, dtype=torch.bfloat16)
-        poses_tensor = videos_dict['poses'].to(model.device, dtype=torch.bfloat16)
+        images_tensor    = videos_dict['images'].to(model.device, dtype=torch.bfloat16)
+        depths_tensor    = videos_dict['depths'].to(model.device, dtype=torch.bfloat16)
+        poses_tensor     = videos_dict['poses'].to(model.device, dtype=torch.bfloat16)
         intrinsics_tensor = videos_dict['intrinsics'].to(model.device, dtype=torch.bfloat16)
+
+        # Concatenate extra scenes along the views dimension (large-scene stress test)
+        if args.extra_scenes > 0:
+            other_qs = [q for q in all_questions if q["video"] != video_file]
+            sampled = random.sample(other_qs, min(args.extra_scenes, len(other_qs)))
+            for i, extra_q in enumerate(sampled):
+                extra_path = os.path.join(args.video_folder, extra_q["video"])
+                try:
+                    extra_dict = process_videos(extra_path, processor['video'], mode='random',
+                                                device=model.device, text=cur_prompt)
+                except Exception:
+                    continue
+                # Shift camera translations so the extra scene occupies a separate region
+                extra_poses = extra_dict['poses'].to(model.device, dtype=torch.bfloat16)
+                extra_poses[:, :, 0, 3] += (i + 1) * args.extra_scene_translation
+                images_tensor     = torch.cat([images_tensor,     extra_dict['images'].to(model.device, dtype=torch.bfloat16)], dim=1)
+                depths_tensor     = torch.cat([depths_tensor,     extra_dict['depths'].to(model.device, dtype=torch.bfloat16)], dim=1)
+                poses_tensor      = torch.cat([poses_tensor,      extra_poses], dim=1)
+                intrinsics_tensor = torch.cat([intrinsics_tensor, extra_dict['intrinsics'].to(model.device, dtype=torch.bfloat16)], dim=1)
 
         with torch.inference_mode():
             output_ids = model.generate(
@@ -112,6 +146,19 @@ if __name__ == "__main__":
     parser.add_argument("--temperature", type=float, default=0.2)
     parser.add_argument("--top_p", type=float, default=None)
     parser.add_argument("--num_beams", type=int, default=1)
+    # Method 3: spatial k-means clustering
+    parser.add_argument("--num-clusters", type=int, default=None,
+                        help="Use k-means pooling with K clusters instead of voxel pooling")
+    # Large-scene stress test
+    parser.add_argument("--extra-scenes", type=int, default=0,
+                        help="Number of additional scenes to concatenate per query")
+    parser.add_argument("--extra-scene-translation", type=float, default=50.0,
+                        help="X-axis offset (metres) applied to each extra scene's camera poses")
+    # Dataset helpers
+    parser.add_argument("--max-scene-index", type=int, default=None,
+                        help="Only evaluate on the first N unique scenes (0-indexed)")
+    parser.add_argument("--skip-missing-video", action="store_true",
+                        help="Skip scenes whose video folder cannot be loaded")
     args = parser.parse_args()
 
     eval_model(args)

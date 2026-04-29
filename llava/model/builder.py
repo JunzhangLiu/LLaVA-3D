@@ -169,6 +169,10 @@ def load_pretrained_model_llava(model_path, model_base, model_name, load_8bit=Fa
 
 
 def load_pretrained_model(model_path, model_base, model_name, torch_dtype=torch.bfloat16, load_8bit=False, load_4bit=False, device_map="auto", device="cuda", use_flash_attn=False, **kwargs):
+    # Extract custom args before merging into HuggingFace kwargs (which silently ignores unknowns)
+    num_clusters = kwargs.pop('num_clusters', None)
+    prune_ratio   = kwargs.pop('prune_ratio', None)
+
     kwargs = {"device_map": device_map, **kwargs}
 
     if device != "cuda":
@@ -316,9 +320,15 @@ def load_pretrained_model(model_path, model_base, model_name, torch_dtype=torch.
             video_tower.to(device=device, dtype=torch_dtype)
             video_processor = video_tower.video_processor
             processor['video'] = video_processor
+            if num_clusters is not None:
+                video_tower.num_clusters = num_clusters
+                video_tower.pooling = 'kmeans'
+
+        if prune_ratio is not None:
+            model.prune_ratio = prune_ratio
 
     # ==========================================================================================================
-            
+
     if hasattr(model.config, "max_sequence_length"):
         context_len = model.config.max_sequence_length
     else:
