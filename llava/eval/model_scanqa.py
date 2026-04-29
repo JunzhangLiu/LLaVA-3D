@@ -44,7 +44,7 @@ def eval_model(args):
     pbar = tqdm(questions)
     for line in pbar:
         idx = line["question_id"]
-        video_file = 'scannet/'+line["scene_id"]
+        video_file = line["scene_id"]
         video_path = os.path.join(args.video_folder, video_file)
         qs = line["question"]
         cur_prompt = qs
