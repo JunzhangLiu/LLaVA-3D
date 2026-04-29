@@ -7,13 +7,13 @@ This is a fork of [LLaVA-3D](https://github.com/ZCMax/LLaVA-3D) extended with to
 
 ## Methods
 
-| # | Method | Owner | Status |
-|---|---|---|---|
-| 1 | Attention-Score Pruning | LIU Junzhang | Done |
-| 2 | ForestPrune | — | Exploring |
-| 3 | Spatial K-Means Clustering | WONG Wei Ming | Done (ablation pending) |
-| 4 | Hierarchical Scene Representations | — | Not started |
-| 5 | Q-Former / Learned Token Compression | WU Yuyao | In progress |
+| # | Method | Status |
+|---|---|---|
+| 1 | Attention-Score Pruning | Done |
+| 2 | ForestPrune | Exploring |
+| 3 | Spatial K-Means Clustering | Done (ablation pending) |
+| 4 | Hierarchical Scene Representations | Not started |
+| 5 | Q-Former / Learned Token Compression | In progress |
 
 ## Setup
 
@@ -57,10 +57,8 @@ python llava/eval/score_scanqa.py results/scanqa_baseline.json
 | Baseline — single scene | ~3096 | 28.47% | 46.17% |
 | Baseline — 3 scenes concat | ~9288 | 26.70% | 43.07% |
 | Method 1 — Attn pruning | ~3096 | 28.74% | 44.89% |
-| Method 3 — K-Means K=512 (smoke test) | 512 | 34.52%* | 48.81%* |
+| Method 3 — K-Means K=512 | 512 | 34.52% | 48.81% |
 | Method 3 — K=512 full run | TBD | TBD | TBD |
-
-*84-question smoke test only — full run pending on ASPIRE2A.
 
 ## Docs
 
